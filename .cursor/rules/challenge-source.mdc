@@ -1,0 +1,15 @@
+---
+description: Challenge content source and generator workflow
+globs: scripts/challenges/**,challenges/**,public/challenges/**
+alwaysApply: false
+---
+
+# Challenge content
+
+Define challenges with `challenge({ slug, title, difficulty, topics, goals, description, requirements, starter, hints, acceptance, solutionApproach, concepts, solution, walkthrough, mistakes, stretch })` in `scripts/challenges/{easy,medium,hard,very-hard}.mjs`.
+
+- Curated acceptance: `scripts/challenges/acceptance.mjs` (`{ summary, detail }` objects).
+- Resources: `scripts/challenges/resources.mjs` keyed by `difficulty/slug`.
+- Regenerate: `npm run generate` → `challenges/`, `public/challenges/`, `src/data/challenges-index.json`, solution `## Code highlights` in each `SOLUTION.md`.
+
+Solutions are `tsx` strings shown in markdown—keep them realistic, typed where helpful, and **functional** (no class components).

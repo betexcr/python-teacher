@@ -1,0 +1,100 @@
+import sharp from 'sharp';
+import { mkdirSync, writeFileSync } from 'fs';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+import { buildOgSources } from './og-sources.mjs';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const outDir = join(__dirname, '../public/og');
+const manifestPath = join(__dirname, '../src/data/og-manifest.ts');
+
+mkdirSync(outDir, { recursive: true });
+mkdirSync(join(outDir, 'challenges'), { recursive: true });
+mkdirSync(join(outDir, 'flashcards'), { recursive: true });
+mkdirSync(join(outDir, 'system-design'), { recursive: true });
+
+/** @param {{ badge: string; title: string; subtitle: string; accent: string; accent2: string; icon: string }} cfg */
+function buildOgSvg({ badge, title, subtitle, accent, accent2, icon }) {
+  const esc = (s) =>
+    s
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+
+  const titleSize = title.length > 42 ? 44 : title.length > 32 ? 52 : 64;
+  const subtitleSize = subtitle.length > 52 ? 24 : 30;
+  const badgeWidth = Math.min(480, Math.max(160, badge.length * 11 + 48));
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a10"/>
+      <stop offset="55%" stop-color="#0f1419"/>
+      <stop offset="100%" stop-color="#121820"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="85%" cy="15%" r="45%">
+      <stop offset="0%" stop-color="${accent}" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="${accent}" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="8%" cy="88%" r="40%">
+      <stop offset="0%" stop-color="${accent2}" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="${accent2}" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="${accent}"/>
+      <stop offset="100%" stop-color="${accent2}"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="32" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#121820" fill-opacity="0.55" stroke="#2a3548" stroke-width="1.5" filter="url(#cardShadow)"/>
+  <path fill="url(#brand)" d="M108 118c-.66.85-2.02.37-2.02-.7V86.9a2.26 2.26 0 0 0-2.26-2.26H72.3c-.92 0-1.46-1.04-.92-1.79l7.48-10.47c1.07-1.5 0-3.58-1.84-3.58H63.2c-.92 0-1.46-1.04-.92-1.79L72.1 53.5c.21-.3.56-.47.92-.47h28.9c.92 0 1.46 1.04.92 1.79l-7.48 10.47c-1.07 1.5 0 3.58 1.84 3.58h11.38c.94 0 1.47 1.09.89 1.83L108 118z" opacity="0.95"/>
+  <text x="168" y="98" fill="#e6edf3" font-family="Segoe UI, system-ui, sans-serif" font-size="28" font-weight="600" letter-spacing="-0.02em">PythonTeacher</text>
+  <rect x="168" y="118" width="${badgeWidth}" height="40" rx="20" fill="${accent}" fill-opacity="0.14" stroke="${accent}" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="192" y="145" fill="${accent}" font-family="Segoe UI, system-ui, sans-serif" font-size="18" font-weight="600" letter-spacing="0.06em">${esc(badge.toUpperCase())}</text>
+  <text x="168" y="248" fill="#e8edf4" font-family="Segoe UI, system-ui, sans-serif" font-size="${titleSize}" font-weight="700" letter-spacing="-0.03em">${esc(title)}</text>
+  <text x="168" y="312" fill="#8b9cb3" font-family="Segoe UI, system-ui, sans-serif" font-size="${subtitleSize}" font-weight="400">${esc(subtitle)}</text>
+  <text x="168" y="500" fill="#ffd43b" font-family="ui-monospace, Consolas, monospace" font-size="22" font-weight="500">pythonprep.vercel.app</text>
+  <g transform="translate(900 140)">
+    <rect width="200" height="200" rx="36" fill="#1a2332" stroke="#2a3548" stroke-width="1.5"/>
+    <rect width="200" height="200" rx="36" fill="url(#brand)" fill-opacity="0.12"/>
+    <text x="100" y="128" text-anchor="middle" fill="url(#brand)" font-family="Segoe UI, system-ui, sans-serif" font-size="72" font-weight="700">${esc(icon)}</text>
+  </g>
+  <circle cx="1040" cy="520" r="6" fill="${accent}"/>
+  <circle cx="1068" cy="520" r="6" fill="${accent2}"/>
+  <circle cx="1096" cy="520" r="6" fill="#5b9fd4"/>
+</svg>`;
+}
+
+function imageOutPath(id) {
+  return join(outDir, `${id}.png`);
+}
+
+const { images, routes } = buildOgSources();
+
+writeFileSync(
+  manifestPath,
+  `/** Generated by scripts/generate-og-images.mjs — do not edit by hand */\nexport const ogManifest = ${JSON.stringify({ routes }, null, 2)} as const;\n`,
+);
+
+let count = 0;
+for (const img of images) {
+  const svg = buildOgSvg(img);
+  const pngPath = imageOutPath(img.id);
+  mkdirSync(dirname(pngPath), { recursive: true });
+  writeFileSync(pngPath.replace(/\.png$/, '.svg'), svg);
+  await sharp(Buffer.from(svg)).resize(1200, 630).png({ compressionLevel: 9 }).toFile(pngPath);
+  count++;
+}
+
+console.log(`Generated ${count} OG images`);
+console.log(`Wrote ${Object.keys(routes).length} route entries to src/data/og-manifest.ts`);

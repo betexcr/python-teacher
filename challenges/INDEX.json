@@ -1,0 +1,1726 @@
+{
+  "easy": [
+    {
+      "slug": "01-fizzbuzz",
+      "title": "FizzBuzz",
+      "acceptance": [
+        {
+          "summary": "Correct FizzBuzz at 15",
+          "detail": "Correct FizzBuzz at 15. Write a small script or pytest test that demonstrates this behavior matches FizzBuzz."
+        },
+        {
+          "summary": "Plain numbers as strings",
+          "detail": "Plain numbers as strings. Write a small script or pytest test that demonstrates this behavior matches FizzBuzz."
+        },
+        {
+          "summary": "Length equals n",
+          "detail": "Length equals n. Write a small script or pytest test that demonstrates this behavior matches FizzBuzz."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Control flow – Python tutorial",
+          "url": "https://docs.python.org/3/tutorial/controlflow.html"
+        },
+        {
+          "title": "for statements – Python tutorial",
+          "url": "https://docs.python.org/3/tutorial/controlflow.html#for-statements"
+        }
+      ]
+    },
+    {
+      "slug": "02-string-parsing",
+      "title": "Log Line Parser",
+      "acceptance": [
+        {
+          "summary": "Valid line parses",
+          "detail": "Valid line parses: Invalid format raises ValueError. Write a small script or pytest test that demonstrates this behavior matches Log Line Parser."
+        },
+        {
+          "summary": "Whitespace trimmed",
+          "detail": "Whitespace trimmed. Write a small script or pytest test that demonstrates this behavior matches Log Line Parser."
+        },
+        {
+          "summary": "Bad line raises",
+          "detail": "Bad line raises. Write a small script or pytest test that demonstrates this behavior matches Log Line Parser."
+        }
+      ],
+      "resources": [
+        {
+          "title": "str – Python docs",
+          "url": "https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"
+        },
+        {
+          "title": "parsing – reference",
+          "url": "https://docs.python.org/3/library/stdtypes.html#str.split"
+        }
+      ]
+    },
+    {
+      "slug": "03-file-counter",
+      "title": "File Line Counter",
+      "acceptance": [
+        {
+          "summary": "Counts non-empty lines",
+          "detail": "Counts non-empty lines. Write a small script or pytest test that demonstrates this behavior matches File Line Counter."
+        },
+        {
+          "summary": "Empty file returns 0",
+          "detail": "Empty file returns 0. Write a small script or pytest test that demonstrates this behavior matches File Line Counter."
+        },
+        {
+          "summary": "Missing file raises",
+          "detail": "Missing file raises: Raise FileNotFoundError if missing. Write a small script or pytest test that demonstrates this behavior matches File Line Counter."
+        }
+      ],
+      "resources": [
+        {
+          "title": "files – reference",
+          "url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+        },
+        {
+          "title": "io – reference",
+          "url": "https://docs.python.org/3/library/io.html"
+        }
+      ]
+    },
+    {
+      "slug": "04-json-reader",
+      "title": "JSON Config Reader",
+      "acceptance": [
+        {
+          "summary": "Valid JSON loads",
+          "detail": "Valid JSON loads. Write a small script or pytest test that demonstrates this behavior matches JSON Config Reader."
+        },
+        {
+          "summary": "Missing key fails",
+          "detail": "Missing key fails: Missing keys or wrong types raise ValueError. Write a small script or pytest test that demonstrates this behavior matches JSON Config Reader."
+        },
+        {
+          "summary": "Non-object root fails",
+          "detail": "Non-object root fails. Write a small script or pytest test that demonstrates this behavior matches JSON Config Reader."
+        }
+      ],
+      "resources": [
+        {
+          "title": "json – reference",
+          "url": "https://docs.python.org/3/library/json.html"
+        },
+        {
+          "title": "files – reference",
+          "url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+        }
+      ]
+    },
+    {
+      "slug": "05-cli-args",
+      "title": "CLI Greeting",
+      "acceptance": [
+        {
+          "summary": "Default greeting works",
+          "detail": "Default greeting works: Default name is world. Write a small script or pytest test that demonstrates this behavior matches CLI Greeting."
+        },
+        {
+          "summary": "Name flag works",
+          "detail": "Name flag works: Default name is world. Write a small script or pytest test that demonstrates this behavior matches CLI Greeting."
+        },
+        {
+          "summary": "Shout flag uppercases",
+          "detail": "Shout flag uppercases: --shout uppercases output. Write a small script or pytest test that demonstrates this behavior matches CLI Greeting."
+        }
+      ],
+      "resources": [
+        {
+          "title": "argparse – Python docs",
+          "url": "https://docs.python.org/3/library/argparse.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "06-simple-class",
+      "title": "Bank Account Class",
+      "acceptance": [
+        {
+          "summary": "Deposit increases balance",
+          "detail": "Deposit increases balance: deposit adds positive amounts only. Write a small script or pytest test that demonstrates this behavior matches Bank Account Class."
+        },
+        {
+          "summary": "Withdraw decreases",
+          "detail": "Withdraw decreases: withdraw raises ValueError if insufficient funds. Write a small script or pytest test that demonstrates this behavior matches Bank Account Class."
+        },
+        {
+          "summary": "Overdraft blocked",
+          "detail": "Overdraft blocked. Write a small script or pytest test that demonstrates this behavior matches Bank Account Class."
+        }
+      ],
+      "resources": [
+        {
+          "title": "classes – reference",
+          "url": "https://docs.python.org/3/tutorial/classes.html"
+        },
+        {
+          "title": "encapsulation – reference",
+          "url": "https://docs.python.org/3/tutorial/classes.html#private-variables"
+        }
+      ]
+    },
+    {
+      "slug": "07-list-dict-operations",
+      "title": "Inventory Totals",
+      "acceptance": [
+        {
+          "summary": "Merges duplicate SKUs",
+          "detail": "Merges duplicate SKUs. Write a small script or pytest test that demonstrates this behavior matches Inventory Totals."
+        },
+        {
+          "summary": "Totals correct",
+          "detail": "Totals correct. Write a small script or pytest test that demonstrates this behavior matches Inventory Totals."
+        },
+        {
+          "summary": "Empty list ok",
+          "detail": "Empty list ok: Empty input returns zeros. Write a small script or pytest test that demonstrates this behavior matches Inventory Totals."
+        }
+      ],
+      "resources": [
+        {
+          "title": "lists – reference",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html"
+        },
+        {
+          "title": "dicts – reference",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#dictionaries"
+        },
+        {
+          "title": "comprehensions – reference",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions"
+        }
+      ]
+    },
+    {
+      "slug": "08-pathlib-walk",
+      "title": "Find Python Files",
+      "acceptance": [
+        {
+          "summary": "Finds nested .py files",
+          "detail": "Finds nested .py files. Write a small script or pytest test that demonstrates this behavior matches Find Python Files."
+        },
+        {
+          "summary": "Skips __pycache__",
+          "detail": "Skips __pycache__. Write a small script or pytest test that demonstrates this behavior matches Find Python Files."
+        },
+        {
+          "summary": "Sorted output",
+          "detail": "Sorted output: Sorted ascending. Write a small script or pytest test that demonstrates this behavior matches Find Python Files."
+        }
+      ],
+      "resources": [
+        {
+          "title": "pathlib – Python docs",
+          "url": "https://docs.python.org/3/library/pathlib.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "09-env-vars",
+      "title": "Environment Config",
+      "acceptance": [
+        {
+          "summary": "Default APP_ENV",
+          "detail": "Default APP_ENV: APP_ENV defaults to dev. Write a small script or pytest test that demonstrates this behavior matches Environment Config."
+        },
+        {
+          "summary": "Missing DB URL fails",
+          "detail": "Missing DB URL fails. Write a small script or pytest test that demonstrates this behavior matches Environment Config."
+        },
+        {
+          "summary": "Returns Settings",
+          "detail": "Returns Settings. Write a small script or pytest test that demonstrates this behavior matches Environment Config."
+        }
+      ],
+      "resources": [
+        {
+          "title": "os.environ – reference",
+          "url": "https://docs.python.org/3/library/os.html#os.environ"
+        },
+        {
+          "title": "config – reference",
+          "url": "https://docs.python.org/3/library/configparser.html"
+        }
+      ]
+    },
+    {
+      "slug": "10-pytest-basics",
+      "title": "Pytest Temperature",
+      "acceptance": [
+        {
+          "summary": "Conversion correct",
+          "detail": "Conversion correct. Run pytest in the project folder and confirm all parametrized cases pass."
+        },
+        {
+          "summary": "Parametrize used",
+          "detail": "Parametrize used: At least 3 parametrize cases including 0 and 100. Run pytest in the project folder and confirm all parametrized cases pass."
+        },
+        {
+          "summary": "Edge cases covered",
+          "detail": "Edge cases covered. Run pytest in the project folder and confirm all parametrized cases pass."
+        }
+      ],
+      "resources": [
+        {
+          "title": "pytest documentation",
+          "url": "https://docs.pytest.org/en/stable/"
+        },
+        {
+          "title": "testing – reference",
+          "url": "https://docs.python.org/3/library/unittest.html"
+        }
+      ]
+    },
+    {
+      "slug": "11-csv-parse",
+      "title": "CSV Sales Report",
+      "acceptance": [
+        {
+          "summary": "Revenue correct",
+          "detail": "Revenue correct. Write a small script or pytest test that demonstrates this behavior matches CSV Sales Report."
+        },
+        {
+          "summary": "Blank rows ignored",
+          "detail": "Blank rows ignored: Skip blank rows. Write a small script or pytest test that demonstrates this behavior matches CSV Sales Report."
+        },
+        {
+          "summary": "Headers required",
+          "detail": "Headers required. Write a small script or pytest test that demonstrates this behavior matches CSV Sales Report."
+        }
+      ],
+      "resources": [
+        {
+          "title": "csv – reference",
+          "url": "https://docs.python.org/3/library/csv.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "12-requests-get",
+      "title": "HTTP GET JSON",
+      "acceptance": [
+        {
+          "summary": "200 returns JSON",
+          "detail": "200 returns JSON. Write a small script or pytest test that demonstrates this behavior matches HTTP GET JSON."
+        },
+        {
+          "summary": "404 raises",
+          "detail": "404 raises. Write a small script or pytest test that demonstrates this behavior matches HTTP GET JSON."
+        },
+        {
+          "summary": "Timeout configured",
+          "detail": "Timeout configured: Use requests.get with timeout. Write a small script or pytest test that demonstrates this behavior matches HTTP GET JSON."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Requests documentation",
+          "url": "https://requests.readthedocs.io/en/latest/"
+        },
+        {
+          "title": "http – reference",
+          "url": "https://docs.python.org/3/library/http.client.html"
+        }
+      ]
+    },
+    {
+      "slug": "13-dataclass",
+      "title": "User Profile Dataclass",
+      "acceptance": [
+        {
+          "summary": "Frozen instance",
+          "detail": "Frozen instance: frozen=True. Write a small script or pytest test that demonstrates this behavior matches User Profile Dataclass."
+        },
+        {
+          "summary": "Invalid email fails",
+          "detail": "Invalid email fails. Write a small script or pytest test that demonstrates this behavior matches User Profile Dataclass."
+        },
+        {
+          "summary": "to_dict works",
+          "detail": "to_dict works: to_dict returns plain dict. Write a small script or pytest test that demonstrates this behavior matches User Profile Dataclass."
+        }
+      ],
+      "resources": [
+        {
+          "title": "dataclasses – Python docs",
+          "url": "https://docs.python.org/3/library/dataclasses.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "14-enum",
+      "title": "Order Status Enum",
+      "acceptance": [
+        {
+          "summary": "Enum members exist",
+          "detail": "Enum members exist. Write a small script or pytest test that demonstrates this behavior matches Order Status Enum."
+        },
+        {
+          "summary": "Case insensitive parse",
+          "detail": "Case insensitive parse: parse_status case-insensitive. Write a small script or pytest test that demonstrates this behavior matches Order Status Enum."
+        },
+        {
+          "summary": "Invalid raises",
+          "detail": "Invalid raises. Write a small script or pytest test that demonstrates this behavior matches Order Status Enum."
+        }
+      ],
+      "resources": [
+        {
+          "title": "enum – reference",
+          "url": "https://docs.python.org/3/library/enum.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "15-logging",
+      "title": "Module Logger Setup",
+      "acceptance": [
+        {
+          "summary": "Logger returned",
+          "detail": "Logger returned: Returns logging.getLogger(\"app\"). Write a small script or pytest test that demonstrates this behavior matches Module Logger Setup."
+        },
+        {
+          "summary": "Level respected",
+          "detail": "Level respected: Format includes level and message. Write a small script or pytest test that demonstrates this behavior matches Module Logger Setup."
+        },
+        {
+          "summary": "Format readable",
+          "detail": "Format readable: Format includes level and message. Write a small script or pytest test that demonstrates this behavior matches Module Logger Setup."
+        }
+      ],
+      "resources": [
+        {
+          "title": "logging – reference",
+          "url": "https://docs.python.org/3/library/logging.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "16-config-file",
+      "title": "TOML App Config",
+      "acceptance": [
+        {
+          "summary": "Defaults apply",
+          "detail": "Defaults apply: Missing tool.app uses defaults. Write a small script or pytest test that demonstrates this behavior matches TOML App Config."
+        },
+        {
+          "summary": "Overrides merge",
+          "detail": "Overrides merge. Write a small script or pytest test that demonstrates this behavior matches TOML App Config."
+        },
+        {
+          "summary": "port is int",
+          "detail": "port is int: port coerced to int. Write a small script or pytest test that demonstrates this behavior matches TOML App Config."
+        }
+      ],
+      "resources": [
+        {
+          "title": "tomllib – reference",
+          "url": "https://docs.python.org/3/library/tomllib.html"
+        },
+        {
+          "title": "config – reference",
+          "url": "https://docs.python.org/3/library/configparser.html"
+        }
+      ]
+    },
+    {
+      "slug": "17-unit-converter",
+      "title": "Unit Converter",
+      "acceptance": [
+        {
+          "summary": "km to m works",
+          "detail": "km to m works: Support m, cm, km. Write a small script or pytest test that demonstrates this behavior matches Unit Converter."
+        },
+        {
+          "summary": "cm to km works",
+          "detail": "cm to km works: Support m, cm, km. Write a small script or pytest test that demonstrates this behavior matches Unit Converter."
+        },
+        {
+          "summary": "Bad unit raises",
+          "detail": "Bad unit raises. Write a small script or pytest test that demonstrates this behavior matches Unit Converter."
+        }
+      ],
+      "resources": [
+        {
+          "title": "functions – reference",
+          "url": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions"
+        },
+        {
+          "title": "mapping – reference",
+          "url": "https://docs.python.org/3/library/stdtypes.html#mapping-types-dict"
+        }
+      ]
+    },
+    {
+      "slug": "18-password-validator",
+      "title": "Password Validator",
+      "acceptance": [
+        {
+          "summary": "Strong password passes",
+          "detail": "Strong password passes. Write a small script or pytest test that demonstrates this behavior matches Password Validator."
+        },
+        {
+          "summary": "Weak lists errors",
+          "detail": "Weak lists errors. Write a small script or pytest test that demonstrates this behavior matches Password Validator."
+        },
+        {
+          "summary": "Multiple errors at once",
+          "detail": "Multiple errors at once. Write a small script or pytest test that demonstrates this behavior matches Password Validator."
+        }
+      ],
+      "resources": [
+        {
+          "title": "validation – reference",
+          "url": "https://docs.python.org/3/library/exceptions.html"
+        },
+        {
+          "title": "str – Python docs",
+          "url": "https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"
+        }
+      ]
+    },
+    {
+      "slug": "19-text-search",
+      "title": "Grep Lite",
+      "acceptance": [
+        {
+          "summary": "Correct line numbers",
+          "detail": "Correct line numbers. Write a small script or pytest test that demonstrates this behavior matches Grep Lite."
+        },
+        {
+          "summary": "Multiple matches returned",
+          "detail": "Multiple matches returned. Write a small script or pytest test that demonstrates this behavior matches Grep Lite."
+        },
+        {
+          "summary": "Missing file raises",
+          "detail": "Missing file raises. Write a small script or pytest test that demonstrates this behavior matches Grep Lite."
+        }
+      ],
+      "resources": [
+        {
+          "title": "files – reference",
+          "url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+        },
+        {
+          "title": "search – reference",
+          "url": "https://docs.python.org/3/library/re.html"
+        }
+      ]
+    },
+    {
+      "slug": "20-api-client",
+      "title": "REST API Client",
+      "acceptance": [
+        {
+          "summary": "GET correct path",
+          "detail": "GET correct path: GET /users/{id} relative to base. Write a small script or pytest test that demonstrates this behavior matches REST API Client."
+        },
+        {
+          "summary": "Session reused",
+          "detail": "Session reused: Session created in __init__. Write a small script or pytest test that demonstrates this behavior matches REST API Client."
+        },
+        {
+          "summary": "HTTP errors propagate",
+          "detail": "HTTP errors propagate. Write a small script or pytest test that demonstrates this behavior matches REST API Client."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Requests documentation",
+          "url": "https://requests.readthedocs.io/en/latest/"
+        },
+        {
+          "title": "api-design – reference",
+          "url": "https://requests.readthedocs.io/en/latest/user/advanced/"
+        }
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "slug": "01-decorator-timing",
+      "title": "Timing Decorator",
+      "acceptance": [
+        {
+          "summary": "Prints elapsed time",
+          "detail": "Prints elapsed time. Write a small script or pytest test that demonstrates this behavior matches Timing Decorator."
+        },
+        {
+          "summary": "Returns func result",
+          "detail": "Returns func result. Write a small script or pytest test that demonstrates this behavior matches Timing Decorator."
+        },
+        {
+          "summary": "Wrapped __name__ matches original",
+          "detail": "Wrapped __name__ matches original. Write a small script or pytest test that demonstrates this behavior matches Timing Decorator."
+        }
+      ],
+      "resources": [
+        {
+          "title": "decorators – reference",
+          "url": "https://docs.python.org/3/glossary.html#term-decorator"
+        },
+        {
+          "title": "functools – reference",
+          "url": "https://docs.python.org/3/library/functools.html"
+        }
+      ]
+    },
+    {
+      "slug": "02-context-manager",
+      "title": "Timer Context Manager",
+      "acceptance": [
+        {
+          "summary": "Prints label and duration",
+          "detail": "Prints label and duration. Write a small script or pytest test that demonstrates this behavior matches Timer Context Manager."
+        },
+        {
+          "summary": "Works with with statement",
+          "detail": "Works with with statement. Write a small script or pytest test that demonstrates this behavior matches Timer Context Manager."
+        },
+        {
+          "summary": "Exception still raises",
+          "detail": "Exception still raises: Do not swallow exceptions. Write a small script or pytest test that demonstrates this behavior matches Timer Context Manager."
+        }
+      ],
+      "resources": [
+        {
+          "title": "contextlib – reference",
+          "url": "https://docs.python.org/3/library/contextlib.html"
+        },
+        {
+          "title": "context-managers – reference",
+          "url": "https://docs.python.org/3/reference/datamodel.html#context-managers"
+        }
+      ]
+    },
+    {
+      "slug": "03-generator-pipeline",
+      "title": "Generator Pipeline",
+      "acceptance": [
+        {
+          "summary": "Comments skipped",
+          "detail": "Comments skipped. Write a small script or pytest test that demonstrates this behavior matches Generator Pipeline."
+        },
+        {
+          "summary": "Lazy iteration",
+          "detail": "Lazy iteration. Write a small script or pytest test that demonstrates this behavior matches Generator Pipeline."
+        },
+        {
+          "summary": "CSV split correct",
+          "detail": "CSV split correct. Write a small script or pytest test that demonstrates this behavior matches Generator Pipeline."
+        }
+      ],
+      "resources": [
+        {
+          "title": "generators – reference",
+          "url": "https://docs.python.org/3/howto/functional.html#generators"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "04-dataclass-validation",
+      "title": "Validated Dataclass",
+      "acceptance": [
+        {
+          "summary": "Valid user constructs",
+          "detail": "Valid user constructs: Invalid email raises ValueError. Write a small script or pytest test that demonstrates this behavior matches Validated Dataclass."
+        },
+        {
+          "summary": "Bad email fails",
+          "detail": "Bad email fails. Write a small script or pytest test that demonstrates this behavior matches Validated Dataclass."
+        },
+        {
+          "summary": "Bad age fails",
+          "detail": "Bad age fails. Write a small script or pytest test that demonstrates this behavior matches Validated Dataclass."
+        }
+      ],
+      "resources": [
+        {
+          "title": "dataclasses – Python docs",
+          "url": "https://docs.python.org/3/library/dataclasses.html"
+        },
+        {
+          "title": "validation – reference",
+          "url": "https://docs.python.org/3/library/exceptions.html"
+        }
+      ]
+    },
+    {
+      "slug": "05-pytest-fixtures-mocks",
+      "title": "Pytest Fixtures and Mocks",
+      "acceptance": [
+        {
+          "summary": "Test passes offline",
+          "detail": "Test passes offline. Run pytest in the project folder and confirm all parametrized cases pass."
+        },
+        {
+          "summary": "Mock called once",
+          "detail": "Mock called once: Mock returns 200. Run pytest in the project folder and confirm all parametrized cases pass."
+        },
+        {
+          "summary": "Fixture reused",
+          "detail": "Fixture reused: Fixture provides base URL. Run pytest in the project folder and confirm all parametrized cases pass."
+        }
+      ],
+      "resources": [
+        {
+          "title": "pytest documentation",
+          "url": "https://docs.pytest.org/en/stable/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "06-flask-blueprint",
+      "title": "Flask Blueprint",
+      "acceptance": [
+        {
+          "summary": "GET /api/users works",
+          "detail": "GET /api/users works. Run the dev server and hit the blueprint route with curl or httpie."
+        },
+        {
+          "summary": "JSON response",
+          "detail": "JSON response: Route returns JSON. Run the dev server and hit the blueprint route with curl or httpie."
+        },
+        {
+          "summary": "Blueprint registered",
+          "detail": "Blueprint registered: Blueprint named users. Run the dev server and hit the blueprint route with curl or httpie."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Flask documentation",
+          "url": "https://flask.palletsprojects.com/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "07-fastapi-crud",
+      "title": "FastAPI CRUD",
+      "acceptance": [
+        {
+          "summary": "POST returns id",
+          "detail": "POST returns id: POST creates with auto id. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "GET by id works",
+          "detail": "GET by id works: GET 404 when missing. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "DELETE 404 when gone",
+          "detail": "DELETE 404 when gone: DELETE removes item. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        }
+      ],
+      "resources": [
+        {
+          "title": "FastAPI documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "08-pydantic-models",
+      "title": "Pydantic Models",
+      "acceptance": [
+        {
+          "summary": "Valid JSON parses",
+          "detail": "Valid JSON parses. Write a small script or pytest test that demonstrates this behavior matches Pydantic Models."
+        },
+        {
+          "summary": "Bad price fails",
+          "detail": "Bad price fails. Write a small script or pytest test that demonstrates this behavior matches Pydantic Models."
+        },
+        {
+          "summary": "Defaults applied",
+          "detail": "Defaults applied. Write a small script or pytest test that demonstrates this behavior matches Pydantic Models."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Pydantic documentation",
+          "url": "https://docs.pydantic.dev/latest/"
+        },
+        {
+          "title": "validation – reference",
+          "url": "https://docs.python.org/3/library/exceptions.html"
+        }
+      ]
+    },
+    {
+      "slug": "09-sqlalchemy-models",
+      "title": "SQLAlchemy Models",
+      "acceptance": [
+        {
+          "summary": "Table created",
+          "detail": "Table created. Use an in-memory SQLite engine in tests to verify ORM queries without Postgres."
+        },
+        {
+          "summary": "Book persisted",
+          "detail": "Book persisted. Use an in-memory SQLite engine in tests to verify ORM queries without Postgres."
+        },
+        {
+          "summary": "Fields stored correctly",
+          "detail": "Fields stored correctly. Use an in-memory SQLite engine in tests to verify ORM queries without Postgres."
+        }
+      ],
+      "resources": [
+        {
+          "title": "SQLAlchemy 2.0 docs",
+          "url": "https://docs.sqlalchemy.org/en/20/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "10-async-gather",
+      "title": "Async Gather",
+      "acceptance": [
+        {
+          "summary": "All URLs fetched",
+          "detail": "All URLs fetched. Run with asyncio.run() or pytest-asyncio and confirm concurrent tasks complete."
+        },
+        {
+          "summary": "Order matches input",
+          "detail": "Order matches input: Preserve input order. Run with asyncio.run() or pytest-asyncio and confirm concurrent tasks complete."
+        },
+        {
+          "summary": "Session closed properly",
+          "detail": "Session closed properly: Use ClientSession context manager. Run with asyncio.run() or pytest-asyncio and confirm concurrent tasks complete."
+        }
+      ],
+      "resources": [
+        {
+          "title": "asyncio – reference",
+          "url": "https://docs.python.org/3/library/asyncio.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "11-aiohttp-client",
+      "title": "Aiohttp Client Wrapper",
+      "acceptance": [
+        {
+          "summary": "JSON dict returned",
+          "detail": "JSON dict returned. Use pytest-aiohttp or asyncio.run with a mock server to avoid flaky network calls."
+        },
+        {
+          "summary": "HTTP errors raise",
+          "detail": "HTTP errors raise. Use pytest-aiohttp or asyncio.run with a mock server to avoid flaky network calls."
+        },
+        {
+          "summary": "Base URL joined correctly",
+          "detail": "Base URL joined correctly. Use pytest-aiohttp or asyncio.run with a mock server to avoid flaky network calls."
+        }
+      ],
+      "resources": [
+        {
+          "title": "aiohttp – reference",
+          "url": "https://docs.aiohttp.org/en/stable/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "12-retry-decorator",
+      "title": "Retry Decorator",
+      "acceptance": [
+        {
+          "summary": "Succeeds when later attempt works",
+          "detail": "Succeeds when later attempt works. Write a small script or pytest test that demonstrates this behavior matches Retry Decorator."
+        },
+        {
+          "summary": "Raises after max failures",
+          "detail": "Raises after max failures. Write a small script or pytest test that demonstrates this behavior matches Retry Decorator."
+        },
+        {
+          "summary": "Backoff increases",
+          "detail": "Backoff increases. Write a small script or pytest test that demonstrates this behavior matches Retry Decorator."
+        }
+      ],
+      "resources": [
+        {
+          "title": "decorators – reference",
+          "url": "https://docs.python.org/3/glossary.html#term-decorator"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "13-caching-decorator",
+      "title": "Caching Decorator",
+      "acceptance": [
+        {
+          "summary": "Second call skips work",
+          "detail": "Second call skips work. Write a small script or pytest test that demonstrates this behavior matches Caching Decorator."
+        },
+        {
+          "summary": "Different args recompute",
+          "detail": "Different args recompute: Separate calls for different args. Write a small script or pytest test that demonstrates this behavior matches Caching Decorator."
+        },
+        {
+          "summary": "Metadata preserved",
+          "detail": "Metadata preserved. Write a small script or pytest test that demonstrates this behavior matches Caching Decorator."
+        }
+      ],
+      "resources": [
+        {
+          "title": "functools – reference",
+          "url": "https://docs.python.org/3/library/functools.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "14-typer-cli",
+      "title": "Typer CLI",
+      "acceptance": [
+        {
+          "summary": "Default greeting works",
+          "detail": "Default greeting works. Write a small script or pytest test that demonstrates this behavior matches Typer CLI."
+        },
+        {
+          "summary": "--loud uppercases",
+          "detail": "--loud uppercases: Boolean flag --loud. Write a small script or pytest test that demonstrates this behavior matches Typer CLI."
+        },
+        {
+          "summary": "Help text generated",
+          "detail": "Help text generated. Write a small script or pytest test that demonstrates this behavior matches Typer CLI."
+        }
+      ],
+      "resources": [
+        {
+          "title": "typer – reference",
+          "url": "https://typer.tiangolo.com/"
+        },
+        {
+          "title": "cli – reference",
+          "url": "https://docs.python.org/3/library/argparse.html"
+        }
+      ]
+    },
+    {
+      "slug": "15-structured-logging",
+      "title": "Structured Logging",
+      "acceptance": [
+        {
+          "summary": "Valid JSON output",
+          "detail": "Valid JSON output. Write a small script or pytest test that demonstrates this behavior matches Structured Logging."
+        },
+        {
+          "summary": "Extra fields appear",
+          "detail": "Extra fields appear: extra fields merged. Write a small script or pytest test that demonstrates this behavior matches Structured Logging."
+        },
+        {
+          "summary": "Timestamp optional in extra",
+          "detail": "Timestamp optional in extra. Write a small script or pytest test that demonstrates this behavior matches Structured Logging."
+        }
+      ],
+      "resources": [
+        {
+          "title": "logging – reference",
+          "url": "https://docs.python.org/3/library/logging.html"
+        },
+        {
+          "title": "json – reference",
+          "url": "https://docs.python.org/3/library/json.html"
+        }
+      ]
+    },
+    {
+      "slug": "16-pydantic-settings",
+      "title": "Pydantic Settings",
+      "acceptance": [
+        {
+          "summary": "Missing DB URL fails",
+          "detail": "Missing DB URL fails. Write a small script or pytest test that demonstrates this behavior matches Pydantic Settings."
+        },
+        {
+          "summary": "Defaults apply",
+          "detail": "Defaults apply. Write a small script or pytest test that demonstrates this behavior matches Pydantic Settings."
+        },
+        {
+          "summary": "Env overrides work",
+          "detail": "Env overrides work: model_config env prefix APP_ optional. Write a small script or pytest test that demonstrates this behavior matches Pydantic Settings."
+        }
+      ],
+      "resources": [
+        {
+          "title": "pydantic-settings – reference",
+          "url": "https://docs.pydantic.dev/latest/concepts/pydantic_settings/"
+        },
+        {
+          "title": "config – reference",
+          "url": "https://docs.python.org/3/library/configparser.html"
+        }
+      ]
+    },
+    {
+      "slug": "17-repository-pattern",
+      "title": "Repository Pattern",
+      "acceptance": [
+        {
+          "summary": "Save then get works",
+          "detail": "Save then get works: CRUD get/save. Write a small script or pytest test that demonstrates this behavior matches Repository Pattern."
+        },
+        {
+          "summary": "Missing id returns None",
+          "detail": "Missing id returns None. Write a small script or pytest test that demonstrates this behavior matches Repository Pattern."
+        },
+        {
+          "summary": "Protocol typed",
+          "detail": "Protocol typed: Protocol or ABC. Write a small script or pytest test that demonstrates this behavior matches Repository Pattern."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        },
+        {
+          "title": "Python standard library",
+          "url": "https://docs.python.org/3/library/"
+        }
+      ]
+    },
+    {
+      "slug": "18-service-layer",
+      "title": "Service Layer",
+      "acceptance": [
+        {
+          "summary": "Valid registration works",
+          "detail": "Valid registration works. Write a small script or pytest test that demonstrates this behavior matches Service Layer."
+        },
+        {
+          "summary": "Bad email fails",
+          "detail": "Bad email fails. Write a small script or pytest test that demonstrates this behavior matches Service Layer."
+        },
+        {
+          "summary": "Duplicate rejected",
+          "detail": "Duplicate rejected: Duplicate email raises ValueError. Write a small script or pytest test that demonstrates this behavior matches Service Layer."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        },
+        {
+          "title": "Python standard library",
+          "url": "https://docs.python.org/3/library/"
+        }
+      ]
+    },
+    {
+      "slug": "19-webhook-handler",
+      "title": "Webhook Handler",
+      "acceptance": [
+        {
+          "summary": "Valid signature accepted",
+          "detail": "Valid signature accepted. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Tampered body rejected",
+          "detail": "Tampered body rejected. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Returns 200 on success",
+          "detail": "Returns 200 on success. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        }
+      ],
+      "resources": [
+        {
+          "title": "FastAPI documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "title": "webhooks – reference",
+          "url": "https://fastapi.tiangolo.com/advanced/events/"
+        }
+      ]
+    },
+    {
+      "slug": "20-pagination",
+      "title": "API Pagination",
+      "acceptance": [
+        {
+          "summary": "Correct slice returned",
+          "detail": "Correct slice returned. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Metadata accurate",
+          "detail": "Metadata accurate. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Invalid page_size rejected",
+          "detail": "Invalid page_size rejected. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        }
+      ],
+      "resources": [
+        {
+          "title": "pagination – reference",
+          "url": "https://fastapi.tiangolo.com/tutorial/query-params/"
+        },
+        {
+          "title": "FastAPI documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        }
+      ]
+    },
+    {
+      "slug": "21-file-upload",
+      "title": "File Upload",
+      "acceptance": [
+        {
+          "summary": "Valid txt saved",
+          "detail": "Valid txt saved. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Big file 413",
+          "detail": "Big file 413. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Wrong extension 400",
+          "detail": "Wrong extension 400. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        }
+      ],
+      "resources": [
+        {
+          "title": "FastAPI documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "title": "files – reference",
+          "url": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files"
+        }
+      ]
+    },
+    {
+      "slug": "22-background-task",
+      "title": "Background Tasks",
+      "acceptance": [
+        {
+          "summary": "Response before task completes",
+          "detail": "Response before task completes. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Task receives email",
+          "detail": "Task receives email: Background task called. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "No blocking sleep in route",
+          "detail": "No blocking sleep in route. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        }
+      ],
+      "resources": [
+        {
+          "title": "FastAPI documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "title": "background-tasks – reference",
+          "url": "https://fastapi.tiangolo.com/tutorial/background-tasks/"
+        }
+      ]
+    },
+    {
+      "slug": "23-email-sender",
+      "title": "Email Sender",
+      "acceptance": [
+        {
+          "summary": "EmailMessage constructed",
+          "detail": "EmailMessage constructed: Use EmailMessage. Write a small script or pytest test that demonstrates this behavior matches Email Sender."
+        },
+        {
+          "summary": "SMTP login called",
+          "detail": "SMTP login called. Write a small script or pytest test that demonstrates this behavior matches Email Sender."
+        },
+        {
+          "summary": "Message sent to recipient",
+          "detail": "Message sent to recipient: Use EmailMessage. Write a small script or pytest test that demonstrates this behavior matches Email Sender."
+        }
+      ],
+      "resources": [
+        {
+          "title": "email – reference",
+          "url": "https://docs.python.org/3/library/smtplib.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "24-rate-limiter",
+      "title": "Rate Limiter",
+      "acceptance": [
+        {
+          "summary": "Allows burst under limit",
+          "detail": "Allows burst under limit. Write a small script or pytest test that demonstrates this behavior matches Rate Limiter."
+        },
+        {
+          "summary": "Blocks excess calls",
+          "detail": "Blocks excess calls. Write a small script or pytest test that demonstrates this behavior matches Rate Limiter."
+        },
+        {
+          "summary": "Window rolls forward",
+          "detail": "Window rolls forward. Write a small script or pytest test that demonstrates this behavior matches Rate Limiter."
+        }
+      ],
+      "resources": [
+        {
+          "title": "rate-limiting – reference",
+          "url": "https://slowapi.readthedocs.io/en/latest/"
+        },
+        {
+          "title": "decorators – reference",
+          "url": "https://docs.python.org/3/glossary.html#term-decorator"
+        }
+      ]
+    },
+    {
+      "slug": "25-schema-validation",
+      "title": "JSON Schema Validation",
+      "acceptance": [
+        {
+          "summary": "Valid data passes",
+          "detail": "Valid data passes: Use jsonschema.validate. Write a small script or pytest test that demonstrates this behavior matches JSON Schema Validation."
+        },
+        {
+          "summary": "Invalid type fails",
+          "detail": "Invalid type fails. Write a small script or pytest test that demonstrates this behavior matches JSON Schema Validation."
+        },
+        {
+          "summary": "Missing required fails",
+          "detail": "Missing required fails. Write a small script or pytest test that demonstrates this behavior matches JSON Schema Validation."
+        }
+      ],
+      "resources": [
+        {
+          "title": "validation – reference",
+          "url": "https://docs.python.org/3/library/exceptions.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "26-test-coverage",
+      "title": "Test Coverage Setup",
+      "acceptance": [
+        {
+          "summary": "All lines covered",
+          "detail": "All lines covered: Tests for all branches. Run pytest in the project folder and confirm all parametrized cases pass."
+        },
+        {
+          "summary": "Bad range raises tested",
+          "detail": "Bad range raises tested. Run pytest in the project folder and confirm all parametrized cases pass."
+        },
+        {
+          "summary": "Coverage report generated",
+          "detail": "Coverage report generated. Run pytest in the project folder and confirm all parametrized cases pass."
+        }
+      ],
+      "resources": [
+        {
+          "title": "pytest documentation",
+          "url": "https://docs.pytest.org/en/stable/"
+        },
+        {
+          "title": "coverage – reference",
+          "url": "https://coverage.readthedocs.io/en/latest/"
+        }
+      ]
+    },
+    {
+      "slug": "27-docker-compose",
+      "title": "Docker Compose Stack",
+      "acceptance": [
+        {
+          "summary": "Stack starts with compose up",
+          "detail": "Stack starts with compose up. Run docker compose config or docker build to validate the file parses and builds."
+        },
+        {
+          "summary": "Web connects to db host",
+          "detail": "Web connects to db host: web depends_on db. Run docker compose config or docker build to validate the file parses and builds."
+        },
+        {
+          "summary": "Port 8000 exposed",
+          "detail": "Port 8000 exposed. Run docker compose config or docker build to validate the file parses and builds."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Docker Get Started",
+          "url": "https://docs.docker.com/get-started/"
+        },
+        {
+          "title": "docker-compose – reference",
+          "url": "https://docs.docker.com/compose/"
+        }
+      ]
+    },
+    {
+      "slug": "28-dependency-injection",
+      "title": "Dependency Injection",
+      "acceptance": [
+        {
+          "summary": "Health returns connected",
+          "detail": "Health returns connected. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Dependency injected",
+          "detail": "Dependency injected. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Override works in test",
+          "detail": "Override works in test: Test override get_db. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        }
+      ],
+      "resources": [
+        {
+          "title": "dependency-injection – reference",
+          "url": "https://fastapi.tiangolo.com/tutorial/dependencies/"
+        },
+        {
+          "title": "FastAPI documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        }
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "slug": "01-fastapi-auth",
+      "title": "FastAPI JWT Auth",
+      "acceptance": [
+        {
+          "summary": "Login returns token",
+          "detail": "Login returns token. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Protected route needs token",
+          "detail": "Protected route needs token. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        },
+        {
+          "summary": "Expired token rejected",
+          "detail": "Expired token rejected. Start uvicorn, open /docs or curl the endpoint, and verify status code plus JSON shape."
+        }
+      ],
+      "resources": [
+        {
+          "title": "FastAPI documentation",
+          "url": "https://fastapi.tiangolo.com/"
+        },
+        {
+          "title": "jwt – reference",
+          "url": "https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/"
+        },
+        {
+          "title": "auth – reference",
+          "url": "https://fastapi.tiangolo.com/tutorial/security/"
+        }
+      ]
+    },
+    {
+      "slug": "02-async-db-pool",
+      "title": "Async DB Pool",
+      "acceptance": [
+        {
+          "summary": "Returns user dict",
+          "detail": "Returns user dict. Use an in-memory SQLite engine in tests to verify ORM queries without Postgres."
+        },
+        {
+          "summary": "Missing id returns None",
+          "detail": "Missing id returns None. Use an in-memory SQLite engine in tests to verify ORM queries without Postgres."
+        },
+        {
+          "summary": "Async session used",
+          "detail": "Async session used: asyncpg driver URL. Use an in-memory SQLite engine in tests to verify ORM queries without Postgres."
+        }
+      ],
+      "resources": [
+        {
+          "title": "asyncpg – reference",
+          "url": "https://magicstack.github.io/asyncpg/current/"
+        },
+        {
+          "title": "SQLAlchemy 2.0 docs",
+          "url": "https://docs.sqlalchemy.org/en/20/"
+        }
+      ]
+    },
+    {
+      "slug": "03-celery-tasks",
+      "title": "Celery Tasks",
+      "acceptance": [
+        {
+          "summary": "add returns sum",
+          "detail": "add returns sum. Start a worker, enqueue a task, and confirm the result backend stores the outcome."
+        },
+        {
+          "summary": "Email task retries",
+          "detail": "Email task retries. Start a worker, enqueue a task, and confirm the result backend stores the outcome."
+        },
+        {
+          "summary": "Broker URL configurable",
+          "detail": "Broker URL configurable: Redis broker URL from env. Start a worker, enqueue a task, and confirm the result backend stores the outcome."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Celery documentation",
+          "url": "https://docs.celeryq.dev/en/stable/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "04-rag-ingestion",
+      "title": "RAG Document Ingestion",
+      "acceptance": [
+        {
+          "summary": "Chunks overlap correctly",
+          "detail": "Chunks overlap correctly: Overlapping chunks. Write a small script or pytest test that demonstrates this behavior matches RAG Document Ingestion."
+        },
+        {
+          "summary": "Top-k by similarity",
+          "detail": "Top-k by similarity: Cosine similarity top-k. Write a small script or pytest test that demonstrates this behavior matches RAG Document Ingestion."
+        },
+        {
+          "summary": "Dimension mismatch raises",
+          "detail": "Dimension mismatch raises. Write a small script or pytest test that demonstrates this behavior matches RAG Document Ingestion."
+        }
+      ],
+      "resources": [
+        {
+          "title": "rag – reference",
+          "url": "https://python.langchain.com/docs/concepts/rag/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "05-openai-structured-output",
+      "title": "OpenAI Structured Output",
+      "acceptance": [
+        {
+          "summary": "Returns Invoice instance",
+          "detail": "Returns Invoice instance. Mock the API client in tests or use a test key; assert the parsed model fields."
+        },
+        {
+          "summary": "Invalid response raises",
+          "detail": "Invalid response raises. Mock the API client in tests or use a test key; assert the parsed model fields."
+        },
+        {
+          "summary": "Currency default USD",
+          "detail": "Currency default USD. Mock the API client in tests or use a test key; assert the parsed model fields."
+        }
+      ],
+      "resources": [
+        {
+          "title": "OpenAI structured outputs",
+          "url": "https://platform.openai.com/docs/guides/structured-outputs"
+        },
+        {
+          "title": "Pydantic documentation",
+          "url": "https://docs.pydantic.dev/latest/"
+        }
+      ]
+    },
+    {
+      "slug": "06-multi-agent-orchestrator",
+      "title": "Multi-Agent Orchestrator",
+      "acceptance": [
+        {
+          "summary": "Correct agent selected",
+          "detail": "Correct agent selected. Write a small script or pytest test that demonstrates this behavior matches Multi-Agent Orchestrator."
+        },
+        {
+          "summary": "Unknown task fails",
+          "detail": "Unknown task fails. Write a small script or pytest test that demonstrates this behavior matches Multi-Agent Orchestrator."
+        },
+        {
+          "summary": "Result includes agent name",
+          "detail": "Result includes agent name. Write a small script or pytest test that demonstrates this behavior matches Multi-Agent Orchestrator."
+        }
+      ],
+      "resources": [
+        {
+          "title": "agents – reference",
+          "url": "https://platform.openai.com/docs/guides/agents"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "07-performance-profiling",
+      "title": "Performance Profiling",
+      "acceptance": [
+        {
+          "summary": "Returns up to 5 entries",
+          "detail": "Returns up to 5 entries. Write a small script or pytest test that demonstrates this behavior matches Performance Profiling."
+        },
+        {
+          "summary": "Sorted by cumtime",
+          "detail": "Sorted by cumtime. Write a small script or pytest test that demonstrates this behavior matches Performance Profiling."
+        },
+        {
+          "summary": "Includes function names",
+          "detail": "Includes function names. Write a small script or pytest test that demonstrates this behavior matches Performance Profiling."
+        }
+      ],
+      "resources": [
+        {
+          "title": "profiling – reference",
+          "url": "https://docs.python.org/3/library/profile.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "08-production-dockerfile",
+      "title": "Production Dockerfile",
+      "acceptance": [
+        {
+          "summary": "Image builds successfully",
+          "detail": "Image builds successfully. Run docker compose config or docker build to validate the file parses and builds."
+        },
+        {
+          "summary": "Runs uvicorn on 8000",
+          "detail": "Runs uvicorn on 8000. Run docker compose config or docker build to validate the file parses and builds."
+        },
+        {
+          "summary": "Non-root user configured",
+          "detail": "Non-root user configured: Non-root USER. Run docker compose config or docker build to validate the file parses and builds."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Docker Get Started",
+          "url": "https://docs.docker.com/get-started/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    }
+  ],
+  "very-hard": [
+    {
+      "slug": "01-mcp-server",
+      "title": "MCP Server",
+      "acceptance": [
+        {
+          "summary": "Lists echo tool",
+          "detail": "Lists echo tool. Connect with an MCP inspector or client SDK and list tools/resources."
+        },
+        {
+          "summary": "call_tool echo works",
+          "detail": "call_tool echo works. Connect with an MCP inspector or client SDK and list tools/resources."
+        },
+        {
+          "summary": "Runs on stdio transport",
+          "detail": "Runs on stdio transport. Connect with an MCP inspector or client SDK and list tools/resources."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "02-production-rag",
+      "title": "Production RAG Pipeline",
+      "acceptance": [
+        {
+          "summary": "Ingest returns chunk count",
+          "detail": "Ingest returns chunk count. Write a small script or pytest test that demonstrates this behavior matches Production RAG Pipeline."
+        },
+        {
+          "summary": "Query returns citations",
+          "detail": "Query returns citations. Write a small script or pytest test that demonstrates this behavior matches Production RAG Pipeline."
+        },
+        {
+          "summary": "Embedder invoked",
+          "detail": "Embedder invoked: Pluggable embedder. Write a small script or pytest test that demonstrates this behavior matches Production RAG Pipeline."
+        }
+      ],
+      "resources": [
+        {
+          "title": "rag – reference",
+          "url": "https://python.langchain.com/docs/concepts/rag/"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "03-event-sourced-domain",
+      "title": "Event-Sourced Domain",
+      "acceptance": [
+        {
+          "summary": "Events recorded",
+          "detail": "Events recorded. Write a small script or pytest test that demonstrates this behavior matches Event-Sourced Domain."
+        },
+        {
+          "summary": "Balance correct after replay",
+          "detail": "Balance correct after replay. Write a small script or pytest test that demonstrates this behavior matches Event-Sourced Domain."
+        },
+        {
+          "summary": "Overdraft blocked",
+          "detail": "Overdraft blocked. Write a small script or pytest test that demonstrates this behavior matches Event-Sourced Domain."
+        }
+      ],
+      "resources": [
+        {
+          "title": "event-sourcing – reference",
+          "url": "https://martinfowler.com/eaaDev/EventSourcing.html"
+        },
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        }
+      ]
+    },
+    {
+      "slug": "04-distributed-task-scheduler",
+      "title": "Distributed Task Scheduler",
+      "acceptance": [
+        {
+          "summary": "Future tasks not polled",
+          "detail": "Future tasks not polled. Write a small script or pytest test that demonstrates this behavior matches Distributed Task Scheduler."
+        },
+        {
+          "summary": "Due tasks returned",
+          "detail": "Due tasks returned: Worker fetches due items. Write a small script or pytest test that demonstrates this behavior matches Distributed Task Scheduler."
+        },
+        {
+          "summary": "Duplicate task_id skipped",
+          "detail": "Duplicate task_id skipped. Write a small script or pytest test that demonstrates this behavior matches Distributed Task Scheduler."
+        }
+      ],
+      "resources": [
+        {
+          "title": "Python Tutorial",
+          "url": "https://docs.python.org/3/tutorial/"
+        },
+        {
+          "title": "Python standard library",
+          "url": "https://docs.python.org/3/library/"
+        }
+      ]
+    },
+    {
+      "slug": "05-llm-agent-memory",
+      "title": "LLM Agent Memory",
+      "acceptance": [
+        {
+          "summary": "Messages stored",
+          "detail": "Messages stored. Write a small script or pytest test that demonstrates this behavior matches LLM Agent Memory."
+        },
+        {
+          "summary": "Summary created when over budget",
+          "detail": "Summary created when over budget. Write a small script or pytest test that demonstrates this behavior matches LLM Agent Memory."
+        },
+        {
+          "summary": "Context includes recent turns",
+          "detail": "Context includes recent turns: context_for_query returns str. Write a small script or pytest test that demonstrates this behavior matches LLM Agent Memory."
+        }
+      ],
+      "resources": [
+        {
+          "title": "agents – reference",
+          "url": "https://platform.openai.com/docs/guides/agents"
+        },
+        {
+          "title": "memory – reference",
+          "url": "https://python.langchain.com/docs/concepts/memory/"
+        }
+      ]
+    }
+  ]
+}

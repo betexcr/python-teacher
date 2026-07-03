@@ -1,0 +1,41 @@
+{
+  "name": "python-prep",
+  "description": "Free Python interview prep: coding challenges with solutions, 300+ flashcards, Python basics, patterns, and system-design guides. Python 3.12+.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/betexcr/python-teacher.git"
+  },
+  "homepage": "https://github.com/betexcr/python-teacher",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-challenges.mjs && node scripts/generate-flashcards.mjs && node scripts/copy-challenges-public.mjs && node scripts/generate-og-images.mjs",
+    "dev": "npm run generate && vite",
+    "build": "npm run generate && tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "doctor": "react-doctor --verbose"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.16.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "react-doctor": "^0.5.1",
+    "sharp": "^0.34.5",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^8.0.12"
+  }
+}

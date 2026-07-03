@@ -1,0 +1,13 @@
+---
+description: ReactTeacher core conventions and content pipeline
+alwaysApply: true
+---
+
+# ReactTeacher core
+
+- Vite + React 19 SPA; content-heavy, not a runnable challenge runner.
+- **Challenges:** edit `scripts/challenges/*.mjs` (+ `acceptance.mjs`, `resources.mjs`), then `npm run generate`. Do not hand-edit generated `challenges/**` or `public/challenges/**` except for one-off fixes that will be overwritten.
+- **Flashcards:** edit `scripts/flashcard-content/` + `generate-flashcards.mjs`, then generate.
+- Challenge solutions: **function components** only; use `react-error-boundary` for error-boundary samples.
+- Minimize scope; no commits unless the user asks.
+- Windows: use `;` not `&&` in shell commands.

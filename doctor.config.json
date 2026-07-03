@@ -1,0 +1,6 @@
+{
+  "$schema": "https://unpkg.com/react-doctor@latest/config.schema.json",
+  "ignore": {
+    "files": ["middleware.ts"]
+  }
+}

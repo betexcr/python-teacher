@@ -1,0 +1,14 @@
+---
+description: React UI patterns for ReactTeacher app code
+globs: src/**/*.tsx
+alwaysApply: false
+---
+
+# React UI (app code)
+
+- Functional components and hooks only.
+- Router: React Router 7; pages in `src/pages/`, shared UI in `src/components/`.
+- Global styles: `src/styles/app.css` (prefer extending existing classes over new one-off CSS files).
+- Markdown rendering: `MarkdownView`; solution code uses `annotateSolutionCode` + `SolutionCodeTerm`.
+- SEO: `PageMeta` + `src/data/seo.ts` for new routes.
+- Avoid large bundle growth; no new dependencies unless necessary for the feature.

@@ -1,0 +1,270 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  text-align: left;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-h);
+  text-decoration: none;
+}
+
+.app-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.app-nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.app-nav a:hover,
+.breadcrumbs a:hover,
+.challenge-list a:hover,
+.difficulty-card:hover {
+  color: var(--accent);
+}
+
+.app-main {
+  flex: 1;
+  padding: 1.5rem;
+  max-width: 52rem;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.home {
+  text-align: center;
+}
+
+.home h1 {
+  margin-top: 0.5rem;
+}
+
+.lead {
+  max-width: 36rem;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.hint {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.difficulty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
+.difficulty-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text-h);
+  background: var(--code-bg);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.difficulty-card:hover {
+  border-color: var(--accent-border);
+  box-shadow: var(--shadow);
+}
+
+.difficulty-card__label {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.difficulty-card__count {
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.difficulty-card--easy {
+  border-left: 4px solid #22c55e;
+}
+.difficulty-card--medium {
+  border-left: 4px solid #3b82f6;
+}
+.difficulty-card--hard {
+  border-left: 4px solid #f59e0b;
+}
+.difficulty-card--very-hard {
+  border-left: 4px solid #ef4444;
+}
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.breadcrumbs a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.difficulty-page h1,
+.challenge-detail h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.challenge-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.challenge-list a {
+  display: block;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-h);
+  background: var(--bg);
+}
+
+.challenge-detail__actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.file-link {
+  font-size: 0.8rem;
+  font-family: var(--mono);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: var(--code-bg);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.markdown {
+  line-height: 1.65;
+}
+
+.markdown h1 {
+  font-size: 1.75rem;
+  margin: 0 0 1rem;
+  text-align: left;
+}
+
+.markdown h2 {
+  font-size: 1.25rem;
+  margin: 1.5rem 0 0.75rem;
+  text-align: left;
+}
+
+.markdown h3 {
+  font-size: 1.05rem;
+  margin: 1.25rem 0 0.5rem;
+  color: var(--text-h);
+  text-align: left;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol {
+  margin: 0 0 0.85rem;
+  text-align: left;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.35rem;
+}
+
+.markdown pre {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 8px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.markdown pre code {
+  padding: 0;
+  background: none;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  white-space: pre;
+}
+
+.solution-panel {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--border);
+}
+
+.solution-toggle {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg);
+  color: var(--text-h);
+}
+
+.solution-toggle:hover {
+  border-color: var(--accent);
+}
+
+.solution-content {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--code-bg);
+}
+
+.challenge-nav {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.challenge-nav a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.empty-md {
+  color: var(--text);
+  font-style: italic;
+}
