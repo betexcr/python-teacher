@@ -602,7 +602,7 @@ body.js-basics-tutorial-open {
   z-index: 1002;
   width: min(32rem, calc(100dvw - 2rem));
   max-height: calc(100dvh - 2.5rem);
-  overflow: hidden;
+  overflow: visible;
   margin: 0;
   padding: 1rem 1.15rem 0.85rem;
   border-radius: 12px;
@@ -619,11 +619,37 @@ body.js-basics-tutorial-open {
 
 .js-basics-tutorial-dialog .react-term-tip,
 .js-basics-tutorial-dialog .python-term-tip {
+  left: 50%;
+  top: auto;
+  bottom: calc(100% + 0.45rem);
+  z-index: 30;
   width: 14rem;
   max-width: min(16rem, calc(100dvw - 2rem));
   min-width: 11rem;
+  transform: translateX(-50%) translateY(4px);
   word-break: normal;
   overflow-wrap: normal;
+  white-space: normal;
+}
+
+.js-basics-tutorial-dialog .python-term,
+.js-basics-tutorial-dialog .react-term {
+  position: relative;
+  z-index: 1;
+}
+
+.js-basics-tutorial-dialog .python-term:focus-within,
+.js-basics-tutorial-dialog .python-term:hover,
+.js-basics-tutorial-dialog .react-term:focus-within,
+.js-basics-tutorial-dialog .react-term:hover {
+  z-index: 2;
+}
+
+.js-basics-tutorial-dialog .python-term:hover .python-term-tip,
+.js-basics-tutorial-dialog .python-term:focus-within .python-term-tip,
+.js-basics-tutorial-dialog .react-term:hover .react-term-tip,
+.js-basics-tutorial-dialog .react-term:focus-within .react-term-tip {
+  transform: translateX(-50%) translateY(0);
 }
 
 .js-basics-tutorial-progress {

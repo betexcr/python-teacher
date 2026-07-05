@@ -176,13 +176,13 @@ export function PythonBasicsTutorial({ open, stepIndex, setStepIndex, onClose }:
         </h2>
 
         <p id="python-basics-tutorial-body" className="js-basics-tutorial-body">
-          {formatPythonBasicsProse(step.body, `tutorial-${step.id}`, { interactiveTerms: false })}
+          {formatPythonBasicsProse(step.body, `tutorial-${step.id}`)}
         </p>
 
         {step.tip && (
           <p className="js-basics-tutorial-tip">
             <span className="js-basics-tutorial-tip-label">Tip</span>
-            {formatPythonBasicsProse(step.tip, `tutorial-tip-${step.id}`, { interactiveTerms: false })}
+            {formatPythonBasicsProse(step.tip, `tutorial-tip-${step.id}`)}
           </p>
         )}
 
