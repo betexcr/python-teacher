@@ -569,7 +569,8 @@ body.js-basics-tutorial-open {
 .js-basics-tutorial-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  /* Transparent — dimming comes only from the spotlight cutout shadow. */
+  background: transparent;
   pointer-events: auto;
 }
 
@@ -580,6 +581,12 @@ body.js-basics-tutorial-open {
   pointer-events: none;
   z-index: 1001;
   animation: tutorial-spotlight-pulse 1.6s ease-in-out infinite;
+}
+
+body.js-basics-tutorial-open .js-basics-item--tutorial-active,
+body.js-basics-tutorial-open .js-basics-tutorial-target--active {
+  position: relative;
+  z-index: 1001;
 }
 
 @keyframes tutorial-spotlight-pulse {

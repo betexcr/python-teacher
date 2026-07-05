@@ -35,16 +35,30 @@ export function PythonBasicsTutorial({ open, stepIndex, setStepIndex, onClose }:
   const mainRef = useMainScrollRef();
   const [spotlight, setSpotlight] = useState<SpotlightRect | null>(null);
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const activeTargetRef = useRef<Element | null>(null);
 
   const step = pythonBasicsTutorialSteps[stepIndex];
+
+  const clearActiveTarget = useCallback(() => {
+    activeTargetRef.current?.classList.remove('js-basics-tutorial-target--active');
+    activeTargetRef.current = null;
+  }, []);
 
   const measureSpotlight = useCallback(() => {
     const id = tutorialTargetId(step);
     const el = document.querySelector(`[data-tutorial-target="${id}"]`);
     if (!el) {
+      clearActiveTarget();
       setSpotlight(null);
       return;
     }
+
+    if (activeTargetRef.current !== el) {
+      clearActiveTarget();
+      el.classList.add('js-basics-tutorial-target--active');
+      activeTargetRef.current = el;
+    }
+
     const pad = 10;
     const r = el.getBoundingClientRect();
     setSpotlight({
@@ -53,7 +67,7 @@ export function PythonBasicsTutorial({ open, stepIndex, setStepIndex, onClose }:
       width: r.width + pad * 2,
       height: r.height + pad * 2,
     });
-  }, [step]);
+  }, [step, clearActiveTarget]);
 
   const onMeasureSpotlight = useEffectEvent(measureSpotlight);
 
@@ -117,6 +131,12 @@ export function PythonBasicsTutorial({ open, stepIndex, setStepIndex, onClose }:
       dialog.showModal();
     }
   }, [open]);
+
+  useEffect(() => {
+    if (open) return;
+    clearActiveTarget();
+    setSpotlight(null);
+  }, [open, clearActiveTarget]);
 
   const goNext = () => {
     if (stepIndex < TOTAL - 1) setStepIndex((i) => i + 1);
