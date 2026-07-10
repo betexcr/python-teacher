@@ -5,7 +5,7 @@ import {
   SITE_URL,
   type PageMeta,
 } from './src/data/seo.js';
-import crawlSnapshots from './src/data/seo/crawl-snapshots.json' with { type: 'json' };
+import crawlSnapshots from './src/data/seo/crawl-snapshots.json';
 
 function escapeHtml(value: string): string {
   return value
