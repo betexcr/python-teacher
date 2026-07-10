@@ -1,0 +1,16 @@
+# PythonTeacher
+
+> Free Python interview prep: coding challenges, flashcards, patterns, and system design guides.
+
+- Site: https://pythonprep.vercel.app
+- Get started: https://pythonprep.vercel.app/get-started
+- Challenges: https://pythonprep.vercel.app/challenges
+- Flashcards: https://pythonprep.vercel.app/flashcards
+- Patterns: https://pythonprep.vercel.app/python-patterns
+- System design: https://pythonprep.vercel.app/system-design
+- FAQ: https://pythonprep.vercel.app/faq
+- About: https://pythonprep.vercel.app/about
+- Blog: https://pythonprep.vercel.app/blog
+- Sitemap: https://pythonprep.vercel.app/sitemap.xml
+
+Also see: PythonTeacher (pythonprep.vercel.app), NodeTeacher (nodeprep.vercel.app), ReactTeacher (reactteacher.vercel.app).

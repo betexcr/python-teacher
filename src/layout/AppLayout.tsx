@@ -1,5 +1,7 @@
 import { useRef, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
+import { JsonLd } from '../components/JsonLd';
+import { PortfolioFooter } from '../components/PortfolioFooter';
 import { SITE_NAME } from '../config/brand';
 import { ScrollToTop } from '../components/ScrollToTop';
 import { MainScrollContext } from '../context/MainScrollContext';
@@ -78,6 +80,22 @@ export function AppLayout() {
                 <span className="nav-label">System Design</span>
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <span className="nav-icon" aria-hidden>
+                  ℹ
+                </span>
+                <span className="nav-label">About</span>
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/faq" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <span className="nav-icon" aria-hidden>
+                  ?
+                </span>
+                <span className="nav-label">FAQ</span>
+              </NavLink>
+            </li>
           </ul>
           <button
             type="button"
@@ -90,7 +108,9 @@ export function AppLayout() {
         </aside>
         <main ref={mainRef} className="main-content">
           <ScrollToTop />
+          <JsonLd />
           <Outlet />
+          <PortfolioFooter />
         </main>
       </div>
     </MainScrollContext.Provider>

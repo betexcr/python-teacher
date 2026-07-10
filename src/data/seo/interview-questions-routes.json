@@ -1,0 +1,310 @@
+{
+  "generated": "2026-07-10",
+  "items": [
+    {
+      "path": "/interview-questions/01-fizzbuzz",
+      "difficulty": "easy",
+      "title": "FizzBuzz"
+    },
+    {
+      "path": "/interview-questions/02-string-parsing",
+      "difficulty": "easy",
+      "title": "Log Line Parser"
+    },
+    {
+      "path": "/interview-questions/03-file-counter",
+      "difficulty": "easy",
+      "title": "File Line Counter"
+    },
+    {
+      "path": "/interview-questions/04-json-reader",
+      "difficulty": "easy",
+      "title": "JSON Config Reader"
+    },
+    {
+      "path": "/interview-questions/05-cli-args",
+      "difficulty": "easy",
+      "title": "CLI Greeting"
+    },
+    {
+      "path": "/interview-questions/06-simple-class",
+      "difficulty": "easy",
+      "title": "Bank Account Class"
+    },
+    {
+      "path": "/interview-questions/07-list-dict-operations",
+      "difficulty": "easy",
+      "title": "Inventory Totals"
+    },
+    {
+      "path": "/interview-questions/08-pathlib-walk",
+      "difficulty": "easy",
+      "title": "Find Python Files"
+    },
+    {
+      "path": "/interview-questions/09-env-vars",
+      "difficulty": "easy",
+      "title": "Environment Config"
+    },
+    {
+      "path": "/interview-questions/10-pytest-basics",
+      "difficulty": "easy",
+      "title": "Pytest Temperature"
+    },
+    {
+      "path": "/interview-questions/11-csv-parse",
+      "difficulty": "easy",
+      "title": "CSV Sales Report"
+    },
+    {
+      "path": "/interview-questions/12-requests-get",
+      "difficulty": "easy",
+      "title": "HTTP GET JSON"
+    },
+    {
+      "path": "/interview-questions/13-dataclass",
+      "difficulty": "easy",
+      "title": "User Profile Dataclass"
+    },
+    {
+      "path": "/interview-questions/14-enum",
+      "difficulty": "easy",
+      "title": "Order Status Enum"
+    },
+    {
+      "path": "/interview-questions/15-logging",
+      "difficulty": "easy",
+      "title": "Module Logger Setup"
+    },
+    {
+      "path": "/interview-questions/16-config-file",
+      "difficulty": "easy",
+      "title": "TOML App Config"
+    },
+    {
+      "path": "/interview-questions/17-unit-converter",
+      "difficulty": "easy",
+      "title": "Unit Converter"
+    },
+    {
+      "path": "/interview-questions/18-password-validator",
+      "difficulty": "easy",
+      "title": "Password Validator"
+    },
+    {
+      "path": "/interview-questions/19-text-search",
+      "difficulty": "easy",
+      "title": "Grep Lite"
+    },
+    {
+      "path": "/interview-questions/20-api-client",
+      "difficulty": "easy",
+      "title": "REST API Client"
+    },
+    {
+      "path": "/interview-questions/01-decorator-timing",
+      "difficulty": "medium",
+      "title": "Timing Decorator"
+    },
+    {
+      "path": "/interview-questions/02-context-manager",
+      "difficulty": "medium",
+      "title": "Timer Context Manager"
+    },
+    {
+      "path": "/interview-questions/03-generator-pipeline",
+      "difficulty": "medium",
+      "title": "Generator Pipeline"
+    },
+    {
+      "path": "/interview-questions/04-dataclass-validation",
+      "difficulty": "medium",
+      "title": "Validated Dataclass"
+    },
+    {
+      "path": "/interview-questions/05-pytest-fixtures-mocks",
+      "difficulty": "medium",
+      "title": "Pytest Fixtures and Mocks"
+    },
+    {
+      "path": "/interview-questions/06-flask-blueprint",
+      "difficulty": "medium",
+      "title": "Flask Blueprint"
+    },
+    {
+      "path": "/interview-questions/07-fastapi-crud",
+      "difficulty": "medium",
+      "title": "FastAPI CRUD"
+    },
+    {
+      "path": "/interview-questions/08-pydantic-models",
+      "difficulty": "medium",
+      "title": "Pydantic Models"
+    },
+    {
+      "path": "/interview-questions/09-sqlalchemy-models",
+      "difficulty": "medium",
+      "title": "SQLAlchemy Models"
+    },
+    {
+      "path": "/interview-questions/10-async-gather",
+      "difficulty": "medium",
+      "title": "Async Gather"
+    },
+    {
+      "path": "/interview-questions/11-aiohttp-client",
+      "difficulty": "medium",
+      "title": "Aiohttp Client Wrapper"
+    },
+    {
+      "path": "/interview-questions/12-retry-decorator",
+      "difficulty": "medium",
+      "title": "Retry Decorator"
+    },
+    {
+      "path": "/interview-questions/13-caching-decorator",
+      "difficulty": "medium",
+      "title": "Caching Decorator"
+    },
+    {
+      "path": "/interview-questions/14-typer-cli",
+      "difficulty": "medium",
+      "title": "Typer CLI"
+    },
+    {
+      "path": "/interview-questions/15-structured-logging",
+      "difficulty": "medium",
+      "title": "Structured Logging"
+    },
+    {
+      "path": "/interview-questions/16-pydantic-settings",
+      "difficulty": "medium",
+      "title": "Pydantic Settings"
+    },
+    {
+      "path": "/interview-questions/17-repository-pattern",
+      "difficulty": "medium",
+      "title": "Repository Pattern"
+    },
+    {
+      "path": "/interview-questions/18-service-layer",
+      "difficulty": "medium",
+      "title": "Service Layer"
+    },
+    {
+      "path": "/interview-questions/19-webhook-handler",
+      "difficulty": "medium",
+      "title": "Webhook Handler"
+    },
+    {
+      "path": "/interview-questions/20-pagination",
+      "difficulty": "medium",
+      "title": "API Pagination"
+    },
+    {
+      "path": "/interview-questions/21-file-upload",
+      "difficulty": "medium",
+      "title": "File Upload"
+    },
+    {
+      "path": "/interview-questions/22-background-task",
+      "difficulty": "medium",
+      "title": "Background Tasks"
+    },
+    {
+      "path": "/interview-questions/23-email-sender",
+      "difficulty": "medium",
+      "title": "Email Sender"
+    },
+    {
+      "path": "/interview-questions/24-rate-limiter",
+      "difficulty": "medium",
+      "title": "Rate Limiter"
+    },
+    {
+      "path": "/interview-questions/25-schema-validation",
+      "difficulty": "medium",
+      "title": "JSON Schema Validation"
+    },
+    {
+      "path": "/interview-questions/26-test-coverage",
+      "difficulty": "medium",
+      "title": "Test Coverage Setup"
+    },
+    {
+      "path": "/interview-questions/27-docker-compose",
+      "difficulty": "medium",
+      "title": "Docker Compose Stack"
+    },
+    {
+      "path": "/interview-questions/28-dependency-injection",
+      "difficulty": "medium",
+      "title": "Dependency Injection"
+    },
+    {
+      "path": "/interview-questions/01-fastapi-auth",
+      "difficulty": "hard",
+      "title": "FastAPI JWT Auth"
+    },
+    {
+      "path": "/interview-questions/02-async-db-pool",
+      "difficulty": "hard",
+      "title": "Async DB Pool"
+    },
+    {
+      "path": "/interview-questions/03-celery-tasks",
+      "difficulty": "hard",
+      "title": "Celery Tasks"
+    },
+    {
+      "path": "/interview-questions/04-rag-ingestion",
+      "difficulty": "hard",
+      "title": "RAG Document Ingestion"
+    },
+    {
+      "path": "/interview-questions/05-openai-structured-output",
+      "difficulty": "hard",
+      "title": "OpenAI Structured Output"
+    },
+    {
+      "path": "/interview-questions/06-multi-agent-orchestrator",
+      "difficulty": "hard",
+      "title": "Multi-Agent Orchestrator"
+    },
+    {
+      "path": "/interview-questions/07-performance-profiling",
+      "difficulty": "hard",
+      "title": "Performance Profiling"
+    },
+    {
+      "path": "/interview-questions/08-production-dockerfile",
+      "difficulty": "hard",
+      "title": "Production Dockerfile"
+    },
+    {
+      "path": "/interview-questions/01-mcp-server",
+      "difficulty": "very-hard",
+      "title": "MCP Server"
+    },
+    {
+      "path": "/interview-questions/02-production-rag",
+      "difficulty": "very-hard",
+      "title": "Production RAG Pipeline"
+    },
+    {
+      "path": "/interview-questions/03-event-sourced-domain",
+      "difficulty": "very-hard",
+      "title": "Event-Sourced Domain"
+    },
+    {
+      "path": "/interview-questions/04-distributed-task-scheduler",
+      "difficulty": "very-hard",
+      "title": "Distributed Task Scheduler"
+    },
+    {
+      "path": "/interview-questions/05-llm-agent-memory",
+      "difficulty": "very-hard",
+      "title": "LLM Agent Memory"
+    }
+  ]
+}

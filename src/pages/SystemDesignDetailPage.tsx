@@ -1,5 +1,8 @@
 import { Link, useParams } from 'react-router-dom';
+import { Breadcrumbs } from '../components/Breadcrumbs';
+import { JsonLd } from '../components/JsonLd';
 import { MarkdownView } from '../components/MarkdownView';
+import { RelatedPrepLinks } from '../components/RelatedPrepLinks';
 import { getSystemDesignHighlights } from '../data/system-design/codeHighlights';
 import { getProblemBySlug } from '../data/system-design';
 import { useRouteScrollTop } from '../hooks/useRouteScrollTop';
@@ -24,6 +27,22 @@ export function SystemDesignDetailPage() {
 
   return (
     <article className="system-design-detail">
+      <JsonLd
+        learningResource={{
+          name: problem.title,
+          description: problem.subtitle,
+        }}
+        breadcrumbs={[
+          { name: 'System Design', path: '/system-design' },
+          { name: problem.title },
+        ]}
+      />
+      <Breadcrumbs
+        items={[
+          { name: 'System Design', path: '/system-design' },
+          { name: problem.title },
+        ]}
+      />
       <Link to="/system-design" className="sd-back-link">
         ← System Design Problems
       </Link>
@@ -34,6 +53,7 @@ export function SystemDesignDetailPage() {
           codeHighlightLegend="Key terms in this example"
         />
       </div>
+      <RelatedPrepLinks />
     </article>
   );
 }

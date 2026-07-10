@@ -1,8 +1,11 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { AcceptanceChecklist } from '../components/AcceptanceChecklist';
+import { Breadcrumbs } from '../components/Breadcrumbs';
 import { DifficultyBadge } from '../components/DifficultyBadge';
+import { JsonLd } from '../components/JsonLd';
 import { MarkdownView } from '../components/MarkdownView';
+import { RelatedPrepLinks } from '../components/RelatedPrepLinks';
 import { ResourceList } from '../components/ResourceList';
 import { useChallengeProgress } from '../hooks/useChallengeProgress';
 import { useRouteScrollTop } from '../hooks/useRouteScrollTop';
@@ -61,13 +64,22 @@ export function ChallengeDetailPage() {
 
   return (
     <div className="challenge-detail">
-      <nav className="challenge-breadcrumbs">
-        <Link to="/challenges">Challenges</Link>
-        <span aria-hidden> / </span>
-        <DifficultyBadge difficulty={difficulty} />
-        <span aria-hidden> / </span>
-        <span>{meta.title}</span>
-      </nav>
+      <JsonLd
+        learningResource={{
+          name: meta.title,
+          description: `Python ${difficulty} coding challenge: ${meta.title}`,
+        }}
+        breadcrumbs={[
+          { name: 'Challenges', path: '/challenges' },
+          { name: meta.title },
+        ]}
+      />
+      <Breadcrumbs
+        items={[
+          { name: 'Challenges', path: '/challenges' },
+          { name: meta.title },
+        ]}
+      />
 
       <header className="challenge-detail-header">
         <div className="challenge-detail-title-row">
@@ -116,6 +128,13 @@ export function ChallengeDetailPage() {
       <footer className="challenge-nav">
         <Link to="/challenges">← All challenges</Link>
       </footer>
+      <RelatedPrepLinks
+        links={[
+          { href: `/interview-questions/${slug}`, label: `${meta.title} interview question` },
+          { href: '/flashcards/fundamentals', label: 'Python fundamentals flashcards' },
+          { href: '/python-patterns/decorators', label: 'Decorators pattern guide' },
+        ]}
+      />
     </div>
   );
 }

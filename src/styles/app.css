@@ -2639,3 +2639,86 @@ body.js-basics-tutorial-open .js-basics-tutorial-target--active {
     margin: 0;
   }
 }
+
+/* SEO pages & internal linking */
+.seo-breadcrumbs {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.seo-breadcrumbs a {
+  color: var(--accent);
+}
+
+.portfolio-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.portfolio-footer-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.portfolio-footer-links a {
+  color: var(--accent);
+}
+
+.related-prep-links {
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.related-prep-links-title {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.faq-question {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+
+.blog-pillar-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.blog-article-meta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.blog-heading {
+  font-size: 1.15rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+#crawl-snapshot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -1,5 +1,7 @@
 import { ogManifest } from './og-manifest.js';
 import { SITE_NAME, SITE_URL } from '../config/brand';
+import { COMPARE_PAGES, getBlogArticle, HOME_META } from '../config/seo-content';
+import challengesIndex from './challenges-index.json';
 
 export { SITE_NAME, SITE_URL };
 
@@ -23,10 +25,21 @@ const DEFAULT_META: PageMeta = {
 };
 
 const SECTION_FALLBACK: Record<string, PageMeta> = {
-  '/get-started': {
-    title: `Get Started · ${SITE_NAME}`,
-    description: 'Setup, study paths, and how to get the most from PythonTeacher.',
-    ogImageId: 'get-started',
+  '/get-started': HOME_META,
+  '/about': {
+    title: `About · ${SITE_NAME}`,
+    description: 'Free Python interview prep: challenges, flashcards, patterns, and system design guides.',
+    ogImageId: 'default',
+  },
+  '/faq': {
+    title: `${SITE_NAME} FAQ · Python Interview Prep`,
+    description: 'Answers about PythonTeacher, study plans, and how to prepare for Python interviews.',
+    ogImageId: 'default',
+  },
+  '/blog': {
+    title: `Blog · ${SITE_NAME}`,
+    description: 'Python interview guides, study plans, and prep articles.',
+    ogImageId: 'default',
   },
   '/python-basics': {
     title: `Python Basics · ${SITE_NAME}`,
@@ -82,6 +95,40 @@ export function getPageMeta(pathname: string): PageMeta {
 
   const section = SECTION_FALLBACK[path];
   if (section) return section;
+
+  const blogMatch = path.match(/^\/blog\/([^/]+)$/);
+  if (blogMatch) {
+    const article = getBlogArticle(blogMatch[1]);
+    if (article) {
+      return {
+        title: `${article.title} · ${SITE_NAME}`,
+        description: article.description,
+        ogImageId: 'default',
+      };
+    }
+  }
+
+  const compareMatch = path.match(/^\/compare\/([^/]+)$/);
+  if (compareMatch) {
+    const page = COMPARE_PAGES[compareMatch[1]];
+    if (page) {
+      return { title: `${page.title} · ${SITE_NAME}`, description: page.description, ogImageId: 'default' };
+    }
+  }
+
+  const iqMatch = path.match(/^\/interview-questions\/([^/]+)$/);
+  if (iqMatch) {
+    for (const items of Object.values(challengesIndex)) {
+      const item = (items as { slug: string; title: string }[]).find((c) => c.slug === iqMatch[1]);
+      if (item) {
+        return {
+          title: `${item.title} Interview Question · ${SITE_NAME}`,
+          description: `Practice the ${item.title} Python coding challenge with acceptance criteria and solution.`,
+          ogImageId: 'challenges',
+        };
+      }
+    }
+  }
 
   if (path.startsWith('/flashcards/')) return SECTION_FALLBACK['/flashcards'];
 

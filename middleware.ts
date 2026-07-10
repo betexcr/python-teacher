@@ -5,6 +5,7 @@ import {
   SITE_URL,
   type PageMeta,
 } from './src/data/seo.js';
+import crawlSnapshots from './src/data/seo/crawl-snapshots.json' with { type: 'json' };
 
 function escapeHtml(value: string): string {
   return value
@@ -17,6 +18,19 @@ function escapeHtml(value: string): string {
 function normalizePathname(pathname: string): string {
   if (pathname === '/') return '/get-started';
   return pathname.replace(/\/+$/, '') || '/get-started';
+}
+
+function getCrawlSnapshot(pathname: string) {
+  const path = normalizePathname(pathname);
+  return crawlSnapshots.snapshots.find((s) => s.path === path);
+}
+
+function buildCrawlBodyHtml(snapshot: { title: string; body: string }): string {
+  const paragraphs = snapshot.body
+    .split(/\n\n+/)
+    .map((p) => `<p>${escapeHtml(p)}</p>`)
+    .join('\n');
+  return `<article id="crawl-snapshot" aria-hidden="true"><h1>${escapeHtml(snapshot.title)}</h1>${paragraphs}</article>`;
 }
 
 /** HTML snippet injected for social crawlers (edge middleware only). */
@@ -68,6 +82,12 @@ export default async function middleware(request: Request): Promise<Response | u
     /<meta\s+charset="UTF-8"\s*\/?>/i,
     `<meta charset="UTF-8" />\n    ${ogHead}`,
   );
+
+  const snapshot = getCrawlSnapshot(url.pathname);
+  if (snapshot?.body) {
+    const crawlHtml = buildCrawlBodyHtml(snapshot);
+    html = html.replace('<div id="root"></div>', `${crawlHtml}\n    <div id="root"></div>`);
+  }
 
   return new Response(html, {
     status: 200,

@@ -10,7 +10,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "generate": "node scripts/generate-challenges.mjs && node scripts/generate-flashcards.mjs && node scripts/copy-challenges-public.mjs && node scripts/generate-og-images.mjs",
+    "generate": "node scripts/generate-challenges.mjs && node scripts/generate-flashcards.mjs && node scripts/copy-challenges-public.mjs && node scripts/generate-og-images.mjs && node scripts/generate-favicons.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-prerender.mjs",
     "dev": "npm run generate && vite",
     "build": "npm run generate && tsc -b && vite build",
     "lint": "eslint .",

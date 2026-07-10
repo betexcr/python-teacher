@@ -1,0 +1,304 @@
+{
+  "snapshots": [
+    {
+      "path": "/get-started",
+      "title": "Get Started · PythonTeacher",
+      "description": "Setup, study paths, and how to get the most from PythonTeacher.",
+      "body": "Setup, study paths, and how to get the most from PythonTeacher."
+    },
+    {
+      "path": "/challenges",
+      "title": "Python Challenges · PythonTeacher",
+      "description": "Hands-on Python coding challenges from easy to very hard with acceptance criteria.",
+      "body": "Hands-on Python coding challenges from easy to very hard with acceptance criteria."
+    },
+    {
+      "path": "/flashcards",
+      "title": "Flashcards · PythonTeacher",
+      "description": "Quick-review flashcards for FastAPI, pytest, asyncio, RAG, MCP, and more.",
+      "body": "Quick-review flashcards for FastAPI, pytest, asyncio, RAG, MCP, and more."
+    },
+    {
+      "path": "/python-basics",
+      "title": "Python Basics · PythonTeacher",
+      "description": "Python from zero: types, control flow, functions, modules, venv, files, and exceptions.",
+      "body": "Python from zero: types, control flow, functions, modules, venv, files, and exceptions."
+    },
+    {
+      "path": "/python-patterns",
+      "title": "Python Patterns · PythonTeacher",
+      "description": "Python idioms and design patterns with examples for interviews and production code.",
+      "body": "Python idioms and design patterns with examples for interviews and production code."
+    },
+    {
+      "path": "/system-design",
+      "title": "System Design · PythonTeacher",
+      "description": "Backend system design problems and interview walkthroughs with Python.",
+      "body": "Backend system design problems and interview walkthroughs with Python."
+    },
+    {
+      "path": "/flashcards/agents",
+      "title": "AI Agents · Flashcards",
+      "description": "Study 15 flashcards on AI Agents for Python interviews.",
+      "body": "Study 15 flashcards on AI Agents for Python interviews."
+    },
+    {
+      "path": "/flashcards/async",
+      "title": "Async Python · Flashcards",
+      "description": "Study 15 flashcards on Async Python for Python interviews.",
+      "body": "Study 15 flashcards on Async Python for Python interviews."
+    },
+    {
+      "path": "/flashcards/clean-code",
+      "title": "Clean Code & Patterns · Flashcards",
+      "description": "Study 15 flashcards on Clean Code & Patterns for Python interviews.",
+      "body": "Study 15 flashcards on Clean Code & Patterns for Python interviews."
+    },
+    {
+      "path": "/flashcards/cloud",
+      "title": "Cloud & Python · Flashcards",
+      "description": "Study 15 flashcards on Cloud & Python for Python interviews.",
+      "body": "Study 15 flashcards on Cloud & Python for Python interviews."
+    },
+    {
+      "path": "/flashcards/data-eng",
+      "title": "Data Engineering · Flashcards",
+      "description": "Study 15 flashcards on Data Engineering for Python interviews.",
+      "body": "Study 15 flashcards on Data Engineering for Python interviews."
+    },
+    {
+      "path": "/flashcards/data-structures",
+      "title": "Data Structures · Flashcards",
+      "description": "Study 15 flashcards on Data Structures for Python interviews.",
+      "body": "Study 15 flashcards on Data Structures for Python interviews."
+    },
+    {
+      "path": "/flashcards/databases",
+      "title": "Databases · Flashcards",
+      "description": "Study 15 flashcards on Databases for Python interviews.",
+      "body": "Study 15 flashcards on Databases for Python interviews."
+    },
+    {
+      "path": "/flashcards/devops",
+      "title": "DevOps for Python · Flashcards",
+      "description": "Study 15 flashcards on DevOps for Python for Python interviews.",
+      "body": "Study 15 flashcards on DevOps for Python for Python interviews."
+    },
+    {
+      "path": "/flashcards/fastapi",
+      "title": "FastAPI · Flashcards",
+      "description": "Study 15 flashcards on FastAPI for Python interviews.",
+      "body": "Study 15 flashcards on FastAPI for Python interviews."
+    },
+    {
+      "path": "/flashcards/flask",
+      "title": "Flask · Flashcards",
+      "description": "Study 15 flashcards on Flask for Python interviews.",
+      "body": "Study 15 flashcards on Flask for Python interviews."
+    },
+    {
+      "path": "/flashcards/functions",
+      "title": "Functions · Flashcards",
+      "description": "Study 15 flashcards on Functions for Python interviews.",
+      "body": "Study 15 flashcards on Functions for Python interviews."
+    },
+    {
+      "path": "/flashcards/llm-apps",
+      "title": "LLM Applications · Flashcards",
+      "description": "Study 15 flashcards on LLM Applications for Python interviews.",
+      "body": "Study 15 flashcards on LLM Applications for Python interviews."
+    },
+    {
+      "path": "/flashcards/mcp",
+      "title": "Model Context Protocol · Flashcards",
+      "description": "Study 15 flashcards on Model Context Protocol for Python interviews.",
+      "body": "Study 15 flashcards on Model Context Protocol for Python interviews."
+    },
+    {
+      "path": "/flashcards/oop",
+      "title": "Object-Oriented Python · Flashcards",
+      "description": "Study 15 flashcards on Object-Oriented Python for Python interviews.",
+      "body": "Study 15 flashcards on Object-Oriented Python for Python interviews."
+    },
+    {
+      "path": "/flashcards/performance",
+      "title": "Performance · Flashcards",
+      "description": "Study 15 flashcards on Performance for Python interviews.",
+      "body": "Study 15 flashcards on Performance for Python interviews."
+    },
+    {
+      "path": "/flashcards/pytest",
+      "title": "pytest · Flashcards",
+      "description": "Study 15 flashcards on pytest for Python interviews.",
+      "body": "Study 15 flashcards on pytest for Python interviews."
+    },
+    {
+      "path": "/flashcards/fundamentals",
+      "title": "Python Fundamentals · Flashcards",
+      "description": "Study 15 flashcards on Python Fundamentals for Python interviews.",
+      "body": "Study 15 flashcards on Python Fundamentals for Python interviews."
+    },
+    {
+      "path": "/flashcards/rag",
+      "title": "RAG · Flashcards",
+      "description": "Study 15 flashcards on RAG for Python interviews.",
+      "body": "Study 15 flashcards on RAG for Python interviews."
+    },
+    {
+      "path": "/flashcards/stdlib",
+      "title": "Standard Library · Flashcards",
+      "description": "Study 15 flashcards on Standard Library for Python interviews.",
+      "body": "Study 15 flashcards on Standard Library for Python interviews."
+    },
+    {
+      "path": "/flashcards/typing",
+      "title": "Type Hints & Typing · Flashcards",
+      "description": "Study 15 flashcards on Type Hints & Typing for Python interviews.",
+      "body": "Study 15 flashcards on Type Hints & Typing for Python interviews."
+    },
+    {
+      "path": "/challenges/easy",
+      "title": "Easy Challenges · PythonTeacher",
+      "description": "20 easy Python coding challenges with acceptance criteria and solutions.",
+      "body": "20 easy Python coding challenges with acceptance criteria and solutions."
+    },
+    {
+      "path": "/challenges/easy/01-fizzbuzz",
+      "title": "FizzBuzz · Easy",
+      "description": "Easy Python challenge: FizzBuzz. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: FizzBuzz. Practice with acceptance criteria and a solution walkthrough.\n\nFizzBuzz\n\nDifficulty: easy  \nTopics: control-flow, loops\n\nLearning goals\n\n- Practice modulo and branching\n- Return a list from a pure function\n\nChallenge\n\nImplement fizzbuzz(n: int) -> list[str] that returns values from 1 through n inclusive. Multiples of 3 become \"Fizz\", multiples of 5 become \"Buzz\", multiples of both become \"FizzBuzz\", otherwise the number as a string.\n\nRequirements\n\n1. Return exactly n items\n2. 15 maps to FizzBuzz\n3. 1 maps to \"1\"\n4. Do not print; return the list\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/01-fizzbuzz/. Reference write-ups in this repo live under challenges/easy/01-fizzbuzz/ (not loaded by the app).\n\nHints\n\n1. Use % for divisibility\n2. Check 15 before 3 or 5 alone\n3. str(i) for plain numbers\n\nAcceptance criteria\n\n- [ ] Correct FizzBuzz at 15\n  Correct FizzBuzz at 15. Write a small script or pytest test that demonstrates this behavior matches FizzBuzz.\n\n- [ ] Plain numbers as strings\n  Plain numbers as strings. Write a small script or pytest test that demonstrates this behavior matches FizzBuzz.\n\n- [ ] Length equals n\n  Length equals n. Write a small script or pytest test that demonstrates t"
+    },
+    {
+      "path": "/challenges/easy/02-string-parsing",
+      "title": "Log Line Parser · Easy",
+      "description": "Easy Python challenge: Log Line Parser. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Log Line Parser. Practice with acceptance criteria and a solution walkthrough.\n\nLog Line Parser\n\nDifficulty: easy  \nTopics: strings, parsing\n\nLearning goals\n\n- Split and validate text\n- Return structured dicts\n\nChallenge\n\nParse simple log lines like [ERROR] disk full into {\"level\": \"ERROR\", \"message\": \"disk full\"}. Lines without a bracketed level should raise ValueError.\n\nRequirements\n\n1. Level is uppercase inside brackets\n2. Message is trimmed\n3. Invalid format raises ValueError\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/02-string-parsing/. Reference write-ups in this repo live under challenges/easy/02-string-parsing/ (not loaded by the app).\n\nHints\n\n1. line.startswith(\"[\")\n2. split(\"]\", 1) once\n3. strip() the message part\n\nAcceptance criteria\n\n- [ ] Valid line parses\n  Valid line parses: Invalid format raises ValueError. Write a small script or pytest test that demonstrates this behavior matches Log Line Parser.\n\n- [ ] Whitespace trimmed\n  Whitespace trimmed. Write a small script or pytest test that demonstrates this behavior matches Log Line Parser.\n\n- [ ] Bad line raises\n  Bad line raises. Write a small script or pytest test that demonstrates this behavior matches Log Line Parser.\n\nResources\n\n- str –"
+    },
+    {
+      "path": "/challenges/easy/03-file-counter",
+      "title": "File Line Counter · Easy",
+      "description": "Easy Python challenge: File Line Counter. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: File Line Counter. Practice with acceptance criteria and a solution walkthrough.\n\nFile Line Counter\n\nDifficulty: easy  \nTopics: files, io\n\nLearning goals\n\n- Read text files safely\n- Count non-empty lines\n\nChallenge\n\nWrite count_lines(path: Path) -> int that returns how many non-empty lines a UTF-8 text file contains.\n\nRequirements\n\n1. Use pathlib.Path\n2. Ignore blank lines\n3. Raise FileNotFoundError if missing\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/03-file-counter/. Reference write-ups in this repo live under challenges/easy/03-file-counter/ (not loaded by the app).\n\nHints\n\n1. path.read_text(encoding=\"utf-8\")\n2. splitlines() handles newlines\n3. if line.strip()\n\nAcceptance criteria\n\n- [ ] Counts non-empty lines\n  Counts non-empty lines. Write a small script or pytest test that demonstrates this behavior matches File Line Counter.\n\n- [ ] Empty file returns 0\n  Empty file returns 0. Write a small script or pytest test that demonstrates this behavior matches File Line Counter.\n\n- [ ] Missing file raises\n  Missing file raises: Raise FileNotFoundError if missing. Write a small script or pytest test that demonstrates this behavior matches File Line Counter.\n\nResources\n\n- files – reference\n- io – reference"
+    },
+    {
+      "path": "/challenges/easy/04-json-reader",
+      "title": "JSON Config Reader · Easy",
+      "description": "Easy Python challenge: JSON Config Reader. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: JSON Config Reader. Practice with acceptance criteria and a solution walkthrough.\n\nJSON Config Reader\n\nDifficulty: easy  \nTopics: json, files\n\nLearning goals\n\n- Load JSON safely\n- Validate required keys\n\nChallenge\n\nLoad a JSON object from disk and return it only if it contains required keys name and version (both strings). Otherwise raise ValueError.\n\nRequirements\n\n1. Use json module\n2. Root must be an object\n3. Missing keys or wrong types raise ValueError\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/04-json-reader/. Reference write-ups in this repo live under challenges/easy/04-json-reader/ (not loaded by the app).\n\nHints\n\n1. json.loads or json.load\n2. isinstance(x, str)\n3. REQUIRED = (\"name\", \"version\")\n\nAcceptance criteria\n\n- [ ] Valid JSON loads\n  Valid JSON loads. Write a small script or pytest test that demonstrates this behavior matches JSON Config Reader.\n\n- [ ] Missing key fails\n  Missing key fails: Missing keys or wrong types raise ValueError. Write a small script or pytest test that demonstrates this behavior matches JSON Config Reader.\n\n- [ ] Non-object root fails\n  Non-object root fails. Write a small script or pytest test that demonstrates this behavior matches JSON Config Reader.\n\nResources\n\n- "
+    },
+    {
+      "path": "/challenges/easy/05-cli-args",
+      "title": "CLI Greeting · Easy",
+      "description": "Easy Python challenge: CLI Greeting. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: CLI Greeting. Practice with acceptance criteria and a solution walkthrough.\n\nCLI Greeting\n\nDifficulty: easy  \nTopics: argparse, cli\n\nLearning goals\n\n- Parse command-line flags\n- Provide sensible defaults\n\nChallenge\n\nBuild a tiny CLI with argparse: --name (default \"world\") and --shout to upper-case the greeting. main(argv) should return the greeting string (tests call it without subprocess).\n\nRequirements\n\n1. Default name is world\n2. --shout uppercases output\n3. Return string like \"Hello, Ada!\"\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/05-cli-args/. Reference write-ups in this repo live under challenges/easy/05-cli-args/ (not loaded by the app).\n\nHints\n\n1. parser.add_argument(\"--name\", default=\"world\")\n2. store_true for --shout\n3. parse_args(argv)\n\nAcceptance criteria\n\n- [ ] Default greeting works\n  Default greeting works: Default name is world. Write a small script or pytest test that demonstrates this behavior matches CLI Greeting.\n\n- [ ] Name flag works\n  Name flag works: Default name is world. Write a small script or pytest test that demonstrates this behavior matches CLI Greeting.\n\n- [ ] Shout flag uppercases\n  Shout flag uppercases: --shout uppercases output. Write a small script or pytest test "
+    },
+    {
+      "path": "/challenges/easy/06-simple-class",
+      "title": "Bank Account Class · Easy",
+      "description": "Easy Python challenge: Bank Account Class. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Bank Account Class. Practice with acceptance criteria and a solution walkthrough.\n\nBank Account Class\n\nDifficulty: easy  \nTopics: classes, encapsulation\n\nLearning goals\n\n- Model state with a class\n- Guard invalid operations\n\nChallenge\n\nImplement BankAccount with deposit, withdraw, and read-only balance. Withdrawals cannot exceed balance.\n\nRequirements\n\n1. Balance starts at 0\n2. deposit adds positive amounts only\n3. withdraw raises ValueError if insufficient funds\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/06-simple-class/. Reference write-ups in this repo live under challenges/easy/06-simple-class/ (not loaded by the app).\n\nHints\n\n1. Validate amount > 0\n2. self._balance private field\n3. raise ValueError on overdraft\n\nAcceptance criteria\n\n- [ ] Deposit increases balance\n  Deposit increases balance: deposit adds positive amounts only. Write a small script or pytest test that demonstrates this behavior matches Bank Account Class.\n\n- [ ] Withdraw decreases\n  Withdraw decreases: withdraw raises ValueError if insufficient funds. Write a small script or pytest test that demonstrates this behavior matches Bank Account Class.\n\n- [ ] Overdraft blocked\n  Overdraft blocked. Write a small script or pytest test that demo"
+    },
+    {
+      "path": "/challenges/easy/07-list-dict-operations",
+      "title": "Inventory Totals · Easy",
+      "description": "Easy Python challenge: Inventory Totals. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Inventory Totals. Practice with acceptance criteria and a solution walkthrough.\n\nInventory Totals\n\nDifficulty: easy  \nTopics: lists, dicts, comprehensions\n\nLearning goals\n\n- Aggregate records with dicts\n- Use comprehensions cleanly\n\nChallenge\n\nGiven list[dict] items with sku, qty, and price, return total quantity and total value. Merge duplicate SKUs by summing quantity.\n\nRequirements\n\n1. Return {\"total_qty\": int, \"total_value\": float}\n2. Duplicate SKUs combine quantities\n3. Empty input returns zeros\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/07-list-dict-operations/. Reference write-ups in this repo live under challenges/easy/07-list-dict-operations/ (not loaded by the app).\n\nHints\n\n1. defaultdict or plain dict merge\n2. total_value = sum(qty * price)\n3. round if needed\n\nAcceptance criteria\n\n- [ ] Merges duplicate SKUs\n  Merges duplicate SKUs. Write a small script or pytest test that demonstrates this behavior matches Inventory Totals.\n\n- [ ] Totals correct\n  Totals correct. Write a small script or pytest test that demonstrates this behavior matches Inventory Totals.\n\n- [ ] Empty list ok\n  Empty list ok: Empty input returns zeros. Write a small script or pytest test that demonstrates this behavior matches"
+    },
+    {
+      "path": "/challenges/easy/08-pathlib-walk",
+      "title": "Find Python Files · Easy",
+      "description": "Easy Python challenge: Find Python Files. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Find Python Files. Practice with acceptance criteria and a solution walkthrough.\n\nFind Python Files\n\nDifficulty: easy  \nTopics: pathlib, filesystem\n\nLearning goals\n\n- Walk directories with pathlib\n- Filter by extension\n\nChallenge\n\nReturn sorted paths of all .py files under a root directory (recursive), skipping __pycache__ folders.\n\nRequirements\n\n1. Paths relative to root or absolute ok\n2. Sorted ascending\n3. Skip __pycache__ directories\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/08-pathlib-walk/. Reference write-ups in this repo live under challenges/easy/08-pathlib-walk/ (not loaded by the app).\n\nHints\n\n1. root.rglob(\"*.py\")\n2. if \"__pycache__\" in p.parts: continue\n3. sorted(...)\n\nAcceptance criteria\n\n- [ ] Finds nested .py files\n  Finds nested .py files. Write a small script or pytest test that demonstrates this behavior matches Find Python Files.\n\n- [ ] Skips __pycache__\n  Skips __pycache__. Write a small script or pytest test that demonstrates this behavior matches Find Python Files.\n\n- [ ] Sorted output\n  Sorted output: Sorted ascending. Write a small script or pytest test that demonstrates this behavior matches Find Python Files.\n\nResources\n\n- pathlib – Python docs\n- Python Tutorial"
+    },
+    {
+      "path": "/challenges/easy/09-env-vars",
+      "title": "Environment Config · Easy",
+      "description": "Easy Python challenge: Environment Config. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Environment Config. Practice with acceptance criteria and a solution walkthrough.\n\nEnvironment Config\n\nDifficulty: easy  \nTopics: os.environ, config\n\nLearning goals\n\n- Read env vars with defaults\n- Validate required settings\n\nChallenge\n\nImplement load_settings() reading APP_ENV (default dev) and required DATABASE_URL. Missing DATABASE_URL raises RuntimeError.\n\nRequirements\n\n1. APP_ENV defaults to dev\n2. DATABASE_URL required\n3. Return typed dict or dataclass\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/09-env-vars/. Reference write-ups in this repo live under challenges/easy/09-env-vars/ (not loaded by the app).\n\nHints\n\n1. os.environ.get(\"APP_ENV\", \"dev\")\n2. os.getenv(\"DATABASE_URL\")\n3. raise RuntimeError if missing\n\nAcceptance criteria\n\n- [ ] Default APP_ENV\n  Default APP_ENV: APP_ENV defaults to dev. Write a small script or pytest test that demonstrates this behavior matches Environment Config.\n\n- [ ] Missing DB URL fails\n  Missing DB URL fails. Write a small script or pytest test that demonstrates this behavior matches Environment Config.\n\n- [ ] Returns Settings\n  Returns Settings. Write a small script or pytest test that demonstrates this behavior matches Environment Config.\n\nResources\n\n- os.environ – ref"
+    },
+    {
+      "path": "/challenges/easy/10-pytest-basics",
+      "title": "Pytest Temperature · Easy",
+      "description": "Easy Python challenge: Pytest Temperature. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Pytest Temperature. Practice with acceptance criteria and a solution walkthrough.\n\nPytest Temperature\n\nDifficulty: easy  \nTopics: pytest, testing\n\nLearning goals\n\n- Write parametric tests\n- Cover edge cases\n\nChallenge\n\nImplement celsius_to_fahrenheit(c: float) -> float and accompanying tests in test_temperature.py using @pytest.mark.parametrize.\n\nRequirements\n\n1. Formula: F = C * 9/5 + 32\n2. At least 3 parametrize cases including 0 and 100\n3. Tests live in test_temperature.py\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/10-pytest-basics/. Reference write-ups in this repo live under challenges/easy/10-pytest-basics/ (not loaded by the app).\n\nHints\n\n1. pytest.approx for floats\n2. @pytest.mark.parametrize(\"c,f\", [(0,32), ...])\n3. keep tests beside module\n\nAcceptance criteria\n\n- [ ] Conversion correct\n  Conversion correct. Run pytest in the project folder and confirm all parametrized cases pass.\n\n- [ ] Parametrize used\n  Parametrize used: At least 3 parametrize cases including 0 and 100. Run pytest in the project folder and confirm all parametrized cases pass.\n\n- [ ] Edge cases covered\n  Edge cases covered. Run pytest in the project folder and confirm all parametrized cases pass.\n\nResources\n\n- pytest documentatio"
+    },
+    {
+      "path": "/challenges/easy/11-csv-parse",
+      "title": "CSV Sales Report · Easy",
+      "description": "Easy Python challenge: CSV Sales Report. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: CSV Sales Report. Practice with acceptance criteria and a solution walkthrough.\n\nCSV Sales Report\n\nDifficulty: easy  \nTopics: csv, data\n\nLearning goals\n\n- Parse CSV with csv module\n- Compute simple analytics\n\nChallenge\n\nRead CSV with headers product,quantity,price and return total revenue as float.\n\nRequirements\n\n1. Use csv.DictReader\n2. Skip blank rows\n3. Return sum of quantity * price\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/11-csv-parse/. Reference write-ups in this repo live under challenges/easy/11-csv-parse/ (not loaded by the app).\n\nHints\n\n1. open(path, newline=\"\")\n2. int(row[\"quantity\"])\n3. accumulate float total\n\nAcceptance criteria\n\n- [ ] Revenue correct\n  Revenue correct. Write a small script or pytest test that demonstrates this behavior matches CSV Sales Report.\n\n- [ ] Blank rows ignored\n  Blank rows ignored: Skip blank rows. Write a small script or pytest test that demonstrates this behavior matches CSV Sales Report.\n\n- [ ] Headers required\n  Headers required. Write a small script or pytest test that demonstrates this behavior matches CSV Sales Report.\n\nResources\n\n- csv – reference\n- Python Tutorial"
+    },
+    {
+      "path": "/challenges/easy/12-requests-get",
+      "title": "HTTP GET JSON · Easy",
+      "description": "Easy Python challenge: HTTP GET JSON. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: HTTP GET JSON. Practice with acceptance criteria and a solution walkthrough.\n\nHTTP GET JSON\n\nDifficulty: easy  \nTopics: requests, http\n\nLearning goals\n\n- Perform GET requests\n- Handle HTTP errors\n\nChallenge\n\nFetch JSON from a URL with requests and return the parsed object. Non-2xx responses should raise requests.HTTPError.\n\nRequirements\n\n1. Use requests.get with timeout\n2. Call raise_for_status\n3. Return parsed JSON (dict or list)\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/12-requests-get/. Reference write-ups in this repo live under challenges/easy/12-requests-get/ (not loaded by the app).\n\nHints\n\n1. response.raise_for_status()\n2. response.json()\n3. always set timeout\n\nAcceptance criteria\n\n- [ ] 200 returns JSON\n  200 returns JSON. Write a small script or pytest test that demonstrates this behavior matches HTTP GET JSON.\n\n- [ ] 404 raises\n  404 raises. Write a small script or pytest test that demonstrates this behavior matches HTTP GET JSON.\n\n- [ ] Timeout configured\n  Timeout configured: Use requests.get with timeout. Write a small script or pytest test that demonstrates this behavior matches HTTP GET JSON.\n\nResources\n\n- Requests documentation\n- http – reference"
+    },
+    {
+      "path": "/challenges/easy/13-dataclass",
+      "title": "User Profile Dataclass · Easy",
+      "description": "Easy Python challenge: User Profile Dataclass. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: User Profile Dataclass. Practice with acceptance criteria and a solution walkthrough.\n\nUser Profile Dataclass\n\nDifficulty: easy  \nTopics: dataclasses\n\nLearning goals\n\n- Define a dataclass with defaults\n- Serialize to dict\n\nChallenge\n\nCreate frozen User dataclass (id, email, active: bool = True) plus to_dict using dataclasses.asdict.\n\nRequirements\n\n1. frozen=True\n2. email must contain @ (validate in __post_init__)\n3. to_dict returns plain dict\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/13-dataclass/. Reference write-ups in this repo live under challenges/easy/13-dataclass/ (not loaded by the app).\n\nHints\n\n1. @dataclass(frozen=True)\n2. __post_init__ validation\n3. asdict(self)\n\nAcceptance criteria\n\n- [ ] Frozen instance\n  Frozen instance: frozen=True. Write a small script or pytest test that demonstrates this behavior matches User Profile Dataclass.\n\n- [ ] Invalid email fails\n  Invalid email fails. Write a small script or pytest test that demonstrates this behavior matches User Profile Dataclass.\n\n- [ ] to_dict works\n  to_dict works: to_dict returns plain dict. Write a small script or pytest test that demonstrates this behavior matches User Profile Dataclass.\n\nResources\n\n- dataclasses – Python docs\n- Python Tutori"
+    },
+    {
+      "path": "/challenges/easy/14-enum",
+      "title": "Order Status Enum · Easy",
+      "description": "Easy Python challenge: Order Status Enum. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Order Status Enum. Practice with acceptance criteria and a solution walkthrough.\n\nOrder Status Enum\n\nDifficulty: easy  \nTopics: enum\n\nLearning goals\n\n- Model constants with Enum\n- Convert safely from strings\n\nChallenge\n\nDefine OrderStatus enum and parse_status(value: str) -> OrderStatus that accepts case-insensitive names or raises ValueError.\n\nRequirements\n\n1. Statuses: pending, shipped, delivered, cancelled\n2. parse_status case-insensitive\n3. Unknown values raise ValueError\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/14-enum/. Reference write-ups in this repo live under challenges/easy/14-enum/ (not loaded by the app).\n\nHints\n\n1. class OrderStatus(str, Enum)\n2. OrderStatus[value.upper()] with mapping\n3. try/except KeyError\n\nAcceptance criteria\n\n- [ ] Enum members exist\n  Enum members exist. Write a small script or pytest test that demonstrates this behavior matches Order Status Enum.\n\n- [ ] Case insensitive parse\n  Case insensitive parse: parse_status case-insensitive. Write a small script or pytest test that demonstrates this behavior matches Order Status Enum.\n\n- [ ] Invalid raises\n  Invalid raises. Write a small script or pytest test that demonstrates this behavior matches Order Status Enum.\n\nResources"
+    },
+    {
+      "path": "/challenges/easy/15-logging",
+      "title": "Module Logger Setup · Easy",
+      "description": "Easy Python challenge: Module Logger Setup. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Module Logger Setup. Practice with acceptance criteria and a solution walkthrough.\n\nModule Logger Setup\n\nDifficulty: easy  \nTopics: logging\n\nLearning goals\n\n- Configure logging basicConfig\n- Log at appropriate levels\n\nChallenge\n\nProvide configure_logging(level: str) that sets up root logger with a standard format and returns a named logger app.\n\nRequirements\n\n1. Format includes level and message\n2. Level from string DEBUG/INFO/WARNING\n3. Returns logging.getLogger(\"app\")\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/15-logging/. Reference write-ups in this repo live under challenges/easy/15-logging/ (not loaded by the app).\n\nHints\n\n1. logging.basicConfig\n2. getattr(logging, level.upper())\n3. force=True on 3.8+\n\nAcceptance criteria\n\n- [ ] Logger returned\n  Logger returned: Returns logging.getLogger(\"app\"). Write a small script or pytest test that demonstrates this behavior matches Module Logger Setup.\n\n- [ ] Level respected\n  Level respected: Format includes level and message. Write a small script or pytest test that demonstrates this behavior matches Module Logger Setup.\n\n- [ ] Format readable\n  Format readable: Format includes level and message. Write a small script or pytest test that demonstrates this behavio"
+    },
+    {
+      "path": "/challenges/easy/16-config-file",
+      "title": "TOML App Config · Easy",
+      "description": "Easy Python challenge: TOML App Config. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: TOML App Config. Practice with acceptance criteria and a solution walkthrough.\n\nTOML App Config\n\nDifficulty: easy  \nTopics: tomllib, config\n\nLearning goals\n\n- Load TOML configuration\n- Apply defaults\n\nChallenge\n\nLoad pyproject-style TOML config from bytes using tomllib (3.11+) and return [tool.app] section with defaults host=127.0.0.1, port=8000.\n\nRequirements\n\n1. Use tomllib.loads\n2. Missing tool.app uses defaults\n3. port coerced to int\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/16-config-file/. Reference write-ups in this repo live under challenges/easy/16-config-file/ (not loaded by the app).\n\nHints\n\n1. tomllib.loads(data)\n2. doc.get(\"tool\", {}).get(\"app\", {})\n3. {DEFAULTS, section}\n\nAcceptance criteria\n\n- [ ] Defaults apply\n  Defaults apply: Missing tool.app uses defaults. Write a small script or pytest test that demonstrates this behavior matches TOML App Config.\n\n- [ ] Overrides merge\n  Overrides merge. Write a small script or pytest test that demonstrates this behavior matches TOML App Config.\n\n- [ ] port is int\n  port is int: port coerced to int. Write a small script or pytest test that demonstrates this behavior matches TOML App Config.\n\nResources\n\n- tomllib – reference\n- config – reference"
+    },
+    {
+      "path": "/challenges/easy/17-unit-converter",
+      "title": "Unit Converter · Easy",
+      "description": "Easy Python challenge: Unit Converter. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Unit Converter. Practice with acceptance criteria and a solution walkthrough.\n\nUnit Converter\n\nDifficulty: easy  \nTopics: functions, mapping\n\nLearning goals\n\n- Build a small conversion API\n- Use dict dispatch\n\nChallenge\n\nImplement convert(value: float, from_unit: str, to_unit: str) -> float for length units m, cm, km via meters as base.\n\nRequirements\n\n1. Support m, cm, km\n2. Unknown unit raises ValueError\n3. Round not required; return float\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/17-unit-converter/. Reference write-ups in this repo live under challenges/easy/17-unit-converter/ (not loaded by the app).\n\nHints\n\n1. meters = value * TO_METERS[from]\n2. return meters / TO_METERS[to]\n3. normalize keys\n\nAcceptance criteria\n\n- [ ] km to m works\n  km to m works: Support m, cm, km. Write a small script or pytest test that demonstrates this behavior matches Unit Converter.\n\n- [ ] cm to km works\n  cm to km works: Support m, cm, km. Write a small script or pytest test that demonstrates this behavior matches Unit Converter.\n\n- [ ] Bad unit raises\n  Bad unit raises. Write a small script or pytest test that demonstrates this behavior matches Unit Converter.\n\nResources\n\n- functions – reference\n- mapping – reference"
+    },
+    {
+      "path": "/challenges/easy/18-password-validator",
+      "title": "Password Validator · Easy",
+      "description": "Easy Python challenge: Password Validator. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Password Validator. Practice with acceptance criteria and a solution walkthrough.\n\nPassword Validator\n\nDifficulty: easy  \nTopics: validation, strings\n\nLearning goals\n\n- Encode password rules clearly\n- Return structured errors\n\nChallenge\n\nValidate passwords: min length 8, at least one digit, one uppercase, one lowercase. Return (ok: bool, errors: list[str]).\n\nRequirements\n\n1. Return all failed rules\n2. Empty password fails\n3. Do not mutate input\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/18-password-validator/. Reference write-ups in this repo live under challenges/easy/18-password-validator/ (not loaded by the app).\n\nHints\n\n1. any(c.isdigit() for c in password)\n2. collect messages in list\n3. ok = not errors\n\nAcceptance criteria\n\n- [ ] Strong password passes\n  Strong password passes. Write a small script or pytest test that demonstrates this behavior matches Password Validator.\n\n- [ ] Weak lists errors\n  Weak lists errors. Write a small script or pytest test that demonstrates this behavior matches Password Validator.\n\n- [ ] Multiple errors at once\n  Multiple errors at once. Write a small script or pytest test that demonstrates this behavior matches Password Validator.\n\nResources\n\n- validation – reference\n- s"
+    },
+    {
+      "path": "/challenges/easy/19-text-search",
+      "title": "Grep Lite · Easy",
+      "description": "Easy Python challenge: Grep Lite. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: Grep Lite. Practice with acceptance criteria and a solution walkthrough.\n\nGrep Lite\n\nDifficulty: easy  \nTopics: files, search\n\nLearning goals\n\n- Search lines in a file\n- Return line numbers\n\nChallenge\n\nImplement find_matches(path: Path, needle: str) -> list[tuple[int, str]] returning (line_no, line_text) for case-sensitive substring matches.\n\nRequirements\n\n1. Line numbers start at 1\n2. Case sensitive\n3. Empty needle matches every line\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/19-text-search/. Reference write-ups in this repo live under challenges/easy/19-text-search/ (not loaded by the app).\n\nHints\n\n1. enumerate(path.read_text().splitlines(), start=1)\n2. if needle in line\n3. strip optional\n\nAcceptance criteria\n\n- [ ] Correct line numbers\n  Correct line numbers. Write a small script or pytest test that demonstrates this behavior matches Grep Lite.\n\n- [ ] Multiple matches returned\n  Multiple matches returned. Write a small script or pytest test that demonstrates this behavior matches Grep Lite.\n\n- [ ] Missing file raises\n  Missing file raises. Write a small script or pytest test that demonstrates this behavior matches Grep Lite.\n\nResources\n\n- files – reference\n- search – reference"
+    },
+    {
+      "path": "/challenges/easy/20-api-client",
+      "title": "REST API Client · Easy",
+      "description": "Easy Python challenge: REST API Client. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Easy Python challenge: REST API Client. Practice with acceptance criteria and a solution walkthrough.\n\nREST API Client\n\nDifficulty: easy  \nTopics: requests, api-design\n\nLearning goals\n\n- Wrap HTTP in a small class\n- Reuse session\n\nChallenge\n\nBuild ApiClient with base URL and get_user(user_id: int) -> dict using a persistent requests.Session.\n\nRequirements\n\n1. Session created in __init__\n2. GET /users/{id} relative to base\n3. raise_for_status on errors\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/easy/20-api-client/. Reference write-ups in this repo live under challenges/easy/20-api-client/ (not loaded by the app).\n\nHints\n\n1. self._session = requests.Session()\n2. url = f\"{base}/users/{id}\"\n3. return response.json()\n\nAcceptance criteria\n\n- [ ] GET correct path\n  GET correct path: GET /users/{id} relative to base. Write a small script or pytest test that demonstrates this behavior matches REST API Client.\n\n- [ ] Session reused\n  Session reused: Session created in __init__. Write a small script or pytest test that demonstrates this behavior matches REST API Client.\n\n- [ ] HTTP errors propagate\n  HTTP errors propagate. Write a small script or pytest test that demonstrates this behavior matches REST API Client.\n\nResources\n\n- Requests docum"
+    },
+    {
+      "path": "/challenges/medium",
+      "title": "Medium Challenges · PythonTeacher",
+      "description": "28 medium Python coding challenges with acceptance criteria and solutions.",
+      "body": "28 medium Python coding challenges with acceptance criteria and solutions."
+    },
+    {
+      "path": "/challenges/medium/01-decorator-timing",
+      "title": "Timing Decorator · Medium",
+      "description": "Medium Python challenge: Timing Decorator. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Medium Python challenge: Timing Decorator. Practice with acceptance criteria and a solution walkthrough.\n\nTiming Decorator\n\nDifficulty: medium  \nTopics: decorators, functools\n\nLearning goals\n\n- Wrap functions with timing logic\n- Preserve metadata with functools.wraps\n\nChallenge\n\nWrite @timed that prints elapsed seconds for sync callables. Use time.perf_counter() and functools.wraps.\n\nRequirements\n\n1. Print format: \"{name} took {seconds:.4f}s\"\n2. Return original result\n3. Preserve __name__ and __doc__\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/medium/01-decorator-timing/. Reference write-ups in this repo live under challenges/medium/01-decorator-timing/ (not loaded by the app).\n\nHints\n\n1. @functools.wraps(func)\n2. start = time.perf_counter()\n3. print after call in wrapper\n\nAcceptance criteria\n\n- [ ] Prints elapsed time\n  Prints elapsed time. Write a small script or pytest test that demonstrates this behavior matches Timing Decorator.\n\n- [ ] Returns func result\n  Returns func result. Write a small script or pytest test that demonstrates this behavior matches Timing Decorator.\n\n- [ ] Wrapped __name__ matches original\n  Wrapped __name__ matches original. Write a small script or pytest test that demonstrates this behavior matches Timing De"
+    },
+    {
+      "path": "/challenges/medium/02-context-manager",
+      "title": "Timer Context Manager · Medium",
+      "description": "Medium Python challenge: Timer Context Manager. Practice with acceptance criteria and a solution walkthrough.",
+      "body": "Medium Python challenge: Timer Context Manager. Practice with acceptance criteria and a solution walkthrough.\n\nTimer Context Manager\n\nDifficulty: medium  \nTopics: contextlib, context-managers\n\nLearning goals\n\n- Implement __enter__/__exit__\n- Use contextlib.contextmanager alternative\n\nChallenge\n\nBuild Timer(label: str) context manager printing {label}: {seconds:.4f}s on exit, even when exceptions occur.\n\nRequirements\n\n1. Measure block duration\n2. Print on exit\n3. Do not swallow exceptions\n\nStarter hint\n\nImplement in your own Python project (venv + pytest) or a sandbox—e.g. practice/medium/02-context-manager/. Reference write-ups in this repo live under challenges/medium/02-context-manager/ (not loaded by the app).\n\nHints\n\n1. self._start in __enter__\n2. elapsed in __exit__\n3. return None to propagate errors\n\nAcceptance criteria\n\n- [ ] Prints label and duration\n  Prints label and duration. Write a small script or pytest test that demonstrates this behavior matches Timer Context Manager.\n\n- [ ] Works with with statement\n  Works with with statement. Write a small script or pytest test that demonstrates this behavior matches Timer Context Manager.\n\n- [ ] Exception still raises\n  Exception still raises: Do not swallow exceptions. Write a small script or pytest test that demonstrates this behavior "
+    }
+  ]
+}

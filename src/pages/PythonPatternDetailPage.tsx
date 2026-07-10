@@ -1,5 +1,8 @@
 import { Link, useParams } from 'react-router-dom';
+import { Breadcrumbs } from '../components/Breadcrumbs';
+import { JsonLd } from '../components/JsonLd';
 import { MarkdownView } from '../components/MarkdownView';
+import { RelatedPrepLinks } from '../components/RelatedPrepLinks';
 import { getPythonPatternHighlights } from '../data/python-patterns/codeHighlights';
 import { getPatternBySlug } from '../data/python-patterns';
 import { useRouteScrollTop } from '../hooks/useRouteScrollTop';
@@ -24,6 +27,22 @@ export function PythonPatternDetailPage() {
 
   return (
     <article className="system-design-detail">
+      <JsonLd
+        learningResource={{
+          name: pattern.pageTitle,
+          description: pattern.subtitle,
+        }}
+        breadcrumbs={[
+          { name: 'Python Patterns', path: '/python-patterns' },
+          { name: pattern.title },
+        ]}
+      />
+      <Breadcrumbs
+        items={[
+          { name: 'Python Patterns', path: '/python-patterns' },
+          { name: pattern.title },
+        ]}
+      />
       <Link to="/python-patterns" className="sd-back-link">
         ← Python Patterns
       </Link>
@@ -34,6 +53,13 @@ export function PythonPatternDetailPage() {
           codeHighlightLegend="Key terms in this example"
         />
       </div>
+      <RelatedPrepLinks
+        links={[
+          { href: `/challenges/medium/01-decorator-timing`, label: 'Decorator timing challenge' },
+          { href: '/flashcards/fundamentals', label: 'Python fundamentals flashcards' },
+          { href: '/system-design/rate-limited-api', label: 'Rate-limited API system design' },
+        ]}
+      />
     </article>
   );
 }
