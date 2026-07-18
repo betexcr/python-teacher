@@ -1,4 +1,4 @@
-# Custom domains & Google Search Console
+﻿# Custom domains & Google Search Console
 
 Operational checklist for PythonTeacher, NodeTeacher, and ReactTeacher.
 
@@ -8,11 +8,12 @@ Operational checklist for PythonTeacher, NodeTeacher, and ReactTeacher.
 |------|------------------|----------------|
 | PythonTeacher | `pythonprep.com` or `pythonteacher.dev` | python-teacher |
 | NodeTeacher | `nodeprep.com` or `nodeteacher.dev` | nodejs-teacher |
+| RustTeacher | `rustprep.com` or `rustteacher.dev` | rust-teacher |
 | ReactTeacher | `reactteacher.dev` or `reactprep.com` | react-teacher |
 
 ## Vercel setup
 
-1. Open each project in Vercel → **Settings → Domains**.
+1. Open each project in Vercel â†’ **Settings â†’ Domains**.
 2. Add the custom domain and follow DNS instructions (A/CNAME).
 3. Set the custom domain as **primary** once SSL is active.
 4. Update `SITE_URL` in `src/config/brand.ts` and redeploy.
@@ -37,3 +38,4 @@ Repeat sitemap submission at [bing.com/webmasters](https://www.bing.com/webmaste
 - Keep `*.vercel.app` URLs redirecting to the custom domain (Vercel default).
 - Update portfolio footer links in `src/config/seo-content.ts` across all three repos.
 - Re-share OG URLs on social profiles if branding domains change.
+

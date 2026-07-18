@@ -25,6 +25,12 @@ const BRANDS = {
     basicsPath: '/js-basics',
     patternsPath: '/react-patterns',
   },
+  rust: {
+    siteUrl: 'https://rustprep.vercel.app',
+    siteName: 'RustTeacher',
+    basicsPath: '/rust-basics',
+    patternsPath: '/rust-patterns',
+  },
 };
 
 const brandKey = process.env.SEO_BRAND ?? 'python';
@@ -112,7 +118,7 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
 const sitemapUrl = `${brand.siteUrl}/sitemap/sitemap.xml`;
 const robots = `User-agent: *\nAllow: /\n\nSitemap: ${sitemapUrl}\n`;
 
-const llms = `# ${brand.siteName}\n\n> Free ${brand.siteName.replace('Teacher', '')} interview prep: coding challenges, flashcards, patterns, and system design guides.\n\n- Site: ${brand.siteUrl}\n- Get started: ${brand.siteUrl}/get-started\n- Challenges: ${brand.siteUrl}/challenges\n- Flashcards: ${brand.siteUrl}/flashcards\n- Patterns: ${brand.siteUrl}${brand.patternsPath}\n- System design: ${brand.siteUrl}/system-design\n- FAQ: ${brand.siteUrl}/faq\n- About: ${brand.siteUrl}/about\n- Blog: ${brand.siteUrl}/blog\n- Sitemap: ${sitemapUrl}\n\nAlso see: PythonTeacher (pythonprep.vercel.app), NodeTeacher (nodeprep.vercel.app), ReactTeacher (reactteacher.vercel.app).\n`;
+const llms = `# ${brand.siteName}\n\n> Free ${brand.siteName.replace('Teacher', '')} interview prep: coding challenges, flashcards, patterns, and system design guides.\n\n- Site: ${brand.siteUrl}\n- Get started: ${brand.siteUrl}/get-started\n- Challenges: ${brand.siteUrl}/challenges\n- Flashcards: ${brand.siteUrl}/flashcards\n- Patterns: ${brand.siteUrl}${brand.patternsPath}\n- System design: ${brand.siteUrl}/system-design\n- FAQ: ${brand.siteUrl}/faq\n- About: ${brand.siteUrl}/about\n- Blog: ${brand.siteUrl}/blog\n- Sitemap: ${sitemapUrl}\n\nAlso see: PythonTeacher (pythonprep.vercel.app), NodeTeacher (nodeprep.vercel.app), ReactTeacher (reactteacher.vercel.app), RustTeacher (rustprep.vercel.app).\n`;
 
 mkdirSync(join(root, 'public/sitemap'), { recursive: true });
 writeFileSync(join(root, 'public/sitemap.xml'), sitemap);

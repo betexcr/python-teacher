@@ -13,6 +13,7 @@ export const PORTFOLIO_SITES = [
   { name: 'PythonTeacher', url: 'https://pythonprep.vercel.app', current: true },
   { name: 'NodeTeacher', url: 'https://nodeprep.vercel.app', current: false },
   { name: 'ReactTeacher', url: 'https://reactteacher.vercel.app', current: false },
+  { name: 'RustTeacher', url: 'https://rustprep.vercel.app', current: false },
 ] as const;
 
 export const SITE_DESCRIPTION =

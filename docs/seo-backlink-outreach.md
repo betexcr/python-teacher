@@ -1,4 +1,4 @@
-# Backlink outreach (months 4–6)
+﻿# Backlink outreach (months 4â€“6)
 
 Low-spam tactics for the Teacher portfolio sites.
 
@@ -17,8 +17,9 @@ Low-spam tactics for the Teacher portfolio sites.
 
 ## Cross-linking (owned)
 
-Footer on each site links to the other two Teacher sites (`PORTFOLIO_SITES` in `seo-content.ts`). No reciprocal link schemes with third parties.
+Footer on each site links to the other Teacher sites (including RustTeacher) (`PORTFOLIO_SITES` in `seo-content.ts`). No reciprocal link schemes with third parties.
 
 ## Tracking
 
 Record placements in a spreadsheet: URL, anchor, date, follow/nofollow, estimated traffic.
+

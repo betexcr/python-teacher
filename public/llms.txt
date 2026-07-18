@@ -13,4 +13,4 @@
 - Blog: https://pythonprep.vercel.app/blog
 - Sitemap: https://pythonprep.vercel.app/sitemap/sitemap.xml
 
-Also see: PythonTeacher (pythonprep.vercel.app), NodeTeacher (nodeprep.vercel.app), ReactTeacher (reactteacher.vercel.app).
+Also see: PythonTeacher (pythonprep.vercel.app), NodeTeacher (nodeprep.vercel.app), ReactTeacher (reactteacher.vercel.app), RustTeacher (rustprep.vercel.app).
