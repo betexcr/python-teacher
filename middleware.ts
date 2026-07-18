@@ -61,7 +61,9 @@ const BOT_UA =
   /bot|crawl|spider|slurp|facebookexternalhit|Facebot|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|TelegramBot|Pinterest|Embedly/i;
 
 export const config = {
-  matcher: ['/((?!og/|assets/|favicon|challenges/|.*\\..*).*)'],
+  matcher: [
+    '/((?!og/|assets/|favicon|challenges/|sitemap|robots\\.txt|llms\\.txt|.*\\..*).*)',
+  ],
 };
 
 export default async function middleware(request: Request): Promise<Response | undefined> {

@@ -109,12 +109,14 @@ const sitemapEntries = allPaths
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapEntries}\n</urlset>\n`;
 
-const robots = `User-agent: *\nAllow: /\n\nSitemap: ${brand.siteUrl}/sitemap.xml\n`;
+const sitemapUrl = `${brand.siteUrl}/sitemap/sitemap.xml`;
+const robots = `User-agent: *\nAllow: /\n\nSitemap: ${sitemapUrl}\n`;
 
-const llms = `# ${brand.siteName}\n\n> Free ${brand.siteName.replace('Teacher', '')} interview prep: coding challenges, flashcards, patterns, and system design guides.\n\n- Site: ${brand.siteUrl}\n- Get started: ${brand.siteUrl}/get-started\n- Challenges: ${brand.siteUrl}/challenges\n- Flashcards: ${brand.siteUrl}/flashcards\n- Patterns: ${brand.siteUrl}${brand.patternsPath}\n- System design: ${brand.siteUrl}/system-design\n- FAQ: ${brand.siteUrl}/faq\n- About: ${brand.siteUrl}/about\n- Blog: ${brand.siteUrl}/blog\n- Sitemap: ${brand.siteUrl}/sitemap.xml\n\nAlso see: PythonTeacher (pythonprep.vercel.app), NodeTeacher (nodeprep.vercel.app), ReactTeacher (reactteacher.vercel.app).\n`;
+const llms = `# ${brand.siteName}\n\n> Free ${brand.siteName.replace('Teacher', '')} interview prep: coding challenges, flashcards, patterns, and system design guides.\n\n- Site: ${brand.siteUrl}\n- Get started: ${brand.siteUrl}/get-started\n- Challenges: ${brand.siteUrl}/challenges\n- Flashcards: ${brand.siteUrl}/flashcards\n- Patterns: ${brand.siteUrl}${brand.patternsPath}\n- System design: ${brand.siteUrl}/system-design\n- FAQ: ${brand.siteUrl}/faq\n- About: ${brand.siteUrl}/about\n- Blog: ${brand.siteUrl}/blog\n- Sitemap: ${sitemapUrl}\n\nAlso see: PythonTeacher (pythonprep.vercel.app), NodeTeacher (nodeprep.vercel.app), ReactTeacher (reactteacher.vercel.app).\n`;
 
-mkdirSync(join(root, 'public'), { recursive: true });
+mkdirSync(join(root, 'public/sitemap'), { recursive: true });
 writeFileSync(join(root, 'public/sitemap.xml'), sitemap);
+writeFileSync(join(root, 'public/sitemap/sitemap.xml'), sitemap);
 writeFileSync(join(root, 'public/robots.txt'), robots);
 writeFileSync(join(root, 'public/llms.txt'), llms);
 
@@ -124,4 +126,4 @@ writeFileSync(
 );
 
 console.log(`SEO sitemap: ${allPaths.length} URLs for ${brand.siteName}`);
-console.log('Wrote public/sitemap.xml, public/robots.txt, public/llms.txt');
+console.log('Wrote public/sitemap.xml, public/sitemap/sitemap.xml, public/robots.txt, public/llms.txt');
